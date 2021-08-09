@@ -1,0 +1,34 @@
+/* reseteo html */
+* {
+  padding: 0;
+  margin: 0;
+}
+/* fuentes */
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("../font/Gilroy-Regular.ttf") format("ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../font/Gilroy-Medium.ttf") format("ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("../font/Gilroy-SemiBold.ttf") format("ttf");
+  font-style: normal;
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("../font/Gilroy-Bold.ttf") format("ttf");
+  font-style: normal;
+  font-weight: bold;
+}
+/* fuentes */
