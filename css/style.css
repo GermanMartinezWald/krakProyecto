@@ -5,30 +5,32 @@
 }
 /* fuentes */
 @font-face {
-  font-family: "Gilroy-Regular";
-  src: url("../font/Gilroy-Regular.ttf") format("ttf");
-  font-style: normal;
+  font-family: "gilroy-regular";
+  src: url("gilroy-regular-webfont.woff2") format("woff2"),
+    url("gilroy-regular-webfont.woff") format("woff");
   font-weight: normal;
-}
-
-@font-face {
-  font-family: "Gilroy-Medium";
-  src: url("../font/Gilroy-Medium.ttf") format("ttf");
   font-style: normal;
-  font-weight: normal;
 }
-
 @font-face {
-  font-family: "Gilroy-SemiBold";
-  src: url("../font/Gilroy-SemiBold.ttf") format("ttf");
+  font-family: "gilroy-medium";
+  src: url("gilroy-medium-webfont.woff2") format("woff2"),
+    url("gilroy-medium-webfont.woff") format("woff");
+  font-weight: 300;
   font-style: normal;
+}
+@font-face {
+  font-family: "gilroy-semibold";
+  src: url("gilroy-semibold-webfont.woff2") format("woff2"),
+    url("gilroy-semibold-webfont.woff") format("woff");
   font-weight: bolder;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroy-bold";
+  src: url("gilroy-bold-webfont.woff2") format("woff2"),
+    url("gilroy-bold-webfont.woff") format("woff");
+  font-weight: bolder;
+  font-style: normal;
 }
 
-@font-face {
-  font-family: "Gilroy-Bold";
-  src: url("../font/Gilroy-Bold.ttf") format("ttf");
-  font-style: normal;
-  font-weight: bold;
-}
 /* fuentes */
