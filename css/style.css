@@ -338,3 +338,63 @@
   }
 }
 /* FIN MENU */
+
+/* INICIO SECCION RENDER Y PARRAFOS */
+
+@media (min-width: 320px) and (max-width: 992px){
+  .subtitulo-principal{
+    font-family: gilroy-bold;
+    font-size: 25px;
+    background: linear-gradient(to right, #7C1DC9 , #E91E63 , #FC6B5F );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .centrado-seccion{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .subtitulo-1{
+    color: #4A148C;
+    font-size: 30px;
+    font-family: gilroy-bold;
+  }
+  .texto-renders{
+    text-align: center;
+  }
+  .ancho-parrafo{
+    font-size: 18px;
+    font-family: gilroy-regular;
+  } 
+}
+
+@media (min-width: 992px){
+  .subtitulo-principal{
+    font-family: gilroy-bold;
+    font-size: 48px;
+    background: linear-gradient(to right, #7C1DC9 , #E91E63 , #FC6B5F );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .centrado-seccion{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .subtitulo-1{
+    color: #4A148C;
+    font-size: 60px;
+    font-family: gilroy-bold;
+  }
+  .texto-renders{
+    text-align: left;
+  }
+
+  .ancho-parrafo{
+    font-size: 18px;
+    font-family: gilroy-regular;
+  } 
+}
+/* FIN SECCION RENDER Y PARRAFOS */
