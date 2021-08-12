@@ -398,3 +398,145 @@
   } 
 }
 /* FIN SECCION RENDER Y PARRAFOS */
+
+/* INICIO SECCION PLANES PERSONALIZADOS */
+
+@media (min-width: 320px) and (max-width: 992px){
+  .borde-cards-planes{
+    border: 4px solid #4A148C;
+    border-radius: 20px;
+    margin: 15px;
+    width: 400px !important;
+  }
+
+  .subtitulo-planes{
+    color: #4A148C;
+    font-family: gilroy-bold;
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .subtitulo-h3{
+    color: #E91E63;
+    font-size: 48px;
+  }
+
+  .parrafo-planes{
+    font-size: 24px;
+    text-align: center;
+    color: #4A148C;
+  }
+
+  .boton-planes {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+  }
+
+  .btn-planes {
+    font-family: "gilroy-bold", sans-serif;
+    width: 250px;
+    height: 70px !important;
+    font-size: 25px;
+    font-weight: normal;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .btn-planes:hover {
+    background-position: 100% 0;
+    /* moz-transition: all 0.4s ease-in-out; */
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .btn-planes:focus {
+    outline: none;
+  }
+  
+  .btn-planes.color-2 {
+    background-image: linear-gradient(to right, #e91e63, #df316b, #fc6b5f);
+  }
+}
+
+@media (min-width: 992px){
+  .borde-cards-planes{
+    border: 4px solid #4A148C;
+    border-radius: 20px;
+    margin: 15px;
+    width: 400px !important;
+  }
+
+  .subtitulo-planes{
+    color: #4A148C;
+    font-family: gilroy-bold;
+    font-size: 60px;
+  }
+
+  .subtitulo-h3{
+    color: #E91E63;
+    font-size: 48px;
+  }
+
+  .parrafo-planes{
+    font-size: 24px;
+    text-align: center;
+    color: #4A148C;
+  }
+
+  .boton-planes {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+  }
+
+  .btn-planes {
+    font-family: "gilroy-bold", sans-serif;
+    width: 250px;
+    height: 70px !important;
+    font-size: 25px;
+    font-weight: normal;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .btn-planes:hover {
+    background-position: 100% 0;
+    /* moz-transition: all 0.4s ease-in-out; */
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .btn-planes:focus {
+    outline: none;
+  }
+  
+  .btn-planes.color-2 {
+    background-image: linear-gradient(to right, #e91e63, #df316b, #fc6b5f);
+  }
+
+  .margen-boton{
+    margin-top: 88px !important;
+  }
+}
+/* FIN SECCION PLANES PERSONALIZADOS */
