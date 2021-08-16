@@ -538,3 +538,115 @@
   }
 }
 /* FIN SECCION PLANES PERSONALIZADOS */
+
+/* INICIO SECCION AGENDA UNA LLAMADA */
+@media (min-width: 320px) and (max-width: 767px){
+  .seccion-agenda{
+    height: 650px;
+    background-color: #4A148C;
+    border-radius: 20px;
+    width: auto !important;
+    margin: 20px !important;
+  }
+
+  .subtitulo-agenda{
+    color: #fff;
+    font-size: 35px;
+    margin-top: 10px !important;
+    margin-left: 30px !important;
+    line-height: 40px;
+    font-family: gilroy-bold;
+  }
+
+  .parrafo-agenda{
+   display: none;
+  }
+
+  .parrafo-mobile-agenda{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-family: gilroy-medium;
+  }
+
+  .boton-agenda{
+   display: none;
+  }
+
+  .centrar{
+    display: flex;
+    justify-content: center;
+  }
+
+  .h3-agenda{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: gilroy-semibold;
+    margin-top: 45px !important;
+  }
+
+  .item-agenda{
+    justify-content: center !important;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 30px;
+    list-style-image: url(../img/icons/descarga.png);
+    font-family: gilroy-medium;
+  }
+}
+
+@media (min-width: 767px){
+  .seccion-agenda{
+    height: 100%;
+    background-color: #4A148C;
+    border-radius: 20px;
+    width: auto !important;
+    margin: 20px !important;
+  }
+
+  .subtitulo-agenda{
+    color: #fff;
+    font-size: 60px;
+    margin-top: 10px !important;
+    margin-left: 30px !important;
+    line-height: 65px;
+    font-family: gilroy-bold;
+  }
+
+  .parrafo-agenda{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 30px !important;
+    font-family: gilroy-medium;
+  }
+
+  .parrafo-mobile-agenda{
+    display: none;
+  }
+
+  .boton-agenda{
+    margin-top: 40px !important;
+    font-size: 22px;
+  }
+
+  .boton-mobile-agenda{
+    display: none;
+  }
+
+
+  .h3-agenda{
+    color: #fff;
+    font-size: 36px;
+    font-family: gilroy-semibold;
+  }
+
+  .item-agenda{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 30px;
+    list-style-image: url(../img/icons/descarga.png);
+    font-family: gilroy-medium;
+  }
+}
+/* FIN SECCION AGENDA UNA LLAMADA */
