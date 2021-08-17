@@ -412,7 +412,7 @@
   .subtitulo-planes {
     color: #4a148c;
     font-family: gilroy-bold;
-    font-size: 60px;
+    font-size: 36px;
     text-align: center;
   }
 
@@ -652,6 +652,7 @@
     font-family: gilroy-medium;
   }
 }
+
 /* FIN SECCION AGENDA UNA LLAMADA */
 
 /* CAROUSEL INFORMACION */
@@ -887,12 +888,24 @@
   display: none;
 }
 @media (min-width: 320px) and (max-width: 767px) {
+  .carousel-empresas {
+    height: auto;
+  }
+  .subtitulo-carousel-empresas {
+    text-align: center;
+    font-family: gilroy-bold;
+    font-size: 36px;
+    /* background: linear-gradient(to right, #7c1dc9, #e91e63, #fc6b5f);
+    -webkit-text-fill-color: transparent !important; */
+    color: #4a148c;
+    margin-bottom: 50px;
+  }
   /* carousel 2 */
   .owl-carousel {
     display: none !important;
   }
   .carousel-empresas-mobile {
-    display: none;
+    display: inline;
     overflow: hidden !important;
   }
   .carousel-inner {
@@ -1102,7 +1115,7 @@
     width: 100%;
     height: 450px;
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
   }
   .waveWrapperInner-top {
     position: absolute;
@@ -1117,7 +1130,7 @@
     width: 100%;
     overflow: hidden;
     height: 932px !important;
-    bottom: 0px;
+    bottom: -2px !important;
     background-size: auto;
   }
   .bgTop {
@@ -1358,8 +1371,7 @@
   background-size: cover;
   width: 100%;
   height: 900px;
-  margin-top: 50px;
-  margin-bottom: 200px;
+  margin-top: 200px;
 }
 .waveWrapperInner-top-2 {
   position: absolute;
@@ -1472,6 +1484,20 @@ textarea:focus {
 }
 /* MEDIAQUERIES FORMULARIO CELULAR */
 @media (min-width: 320px) and (max-width: 767px) {
+  .waveWrapper-3 {
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background-image: url(../img/pictures/Formulario-final.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    margin-top: 250px !important;
+  }
   .seccion-contenedor-formulario {
     width: 50%;
     height: 70%;
@@ -1480,7 +1506,7 @@ textarea:focus {
     justify-content: center;
     align-items: center;
     background-color: white;
-    margin: 20% auto;
+    margin: 35% auto;
     border-radius: 20px;
   }
 
@@ -1492,6 +1518,7 @@ textarea:focus {
     justify-self: start;
     width: 90% !important;
     color: #e91e63;
+    margin-top: 20px;
   }
   .formulario-campo {
     background: #f5f5f5 !important;
@@ -1649,3 +1676,65 @@ textarea:focus {
 }
 /* FIN MEDIAQUERIES FORMULARIO  TABLET */
 /* FIN FORMULARIO */
+
+/* INICIO FOOTER */
+footer {
+  background-color: #4a148c;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icono-footer {
+  margin-left: 20px;
+  width: 200px;
+}
+.contenedor-footer-iconos {
+  width: 150px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.fa-instagram {
+  color: white;
+  font-size: 30px;
+  margin-right: 20px;
+}
+.fa-linkedin-in {
+  color: white;
+  font-size: 30px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  footer {
+    background-color: #4a148c;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .icono-footer {
+    width: 200px;
+    margin: 0;
+  }
+  .contenedor-footer-iconos {
+    width: 150px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .fa-instagram {
+    color: white;
+    font-size: 25px;
+  }
+  .fa-linkedin-in {
+    color: white;
+    font-size: 25px;
+  }
+}
+/* FIN FOOTER */
