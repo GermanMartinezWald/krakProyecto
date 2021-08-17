@@ -339,63 +339,64 @@
 }
 /* FIN MENU */
 
-/* INICIO SECCION RENDER Y PARRAFOS */
+/* INICIO SECCION RENDER Y PARRAFOS  */
 
-@media (min-width: 320px) and (max-width: 992px) {
-  .subtitulo-principal {
+@media (min-width: 320px) and (max-width: 992px){
+  .subtitulo-principal{
     font-family: gilroy-bold;
     font-size: 25px;
-    background: linear-gradient(to right, #7c1dc9, #e91e63, #fc6b5f);
+    background: linear-gradient(to right, #7C1DC9 , #E91E63 , #FC6B5F );
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  .centrado-seccion {
+  .centrado-seccion{
     display: flex;
     align-items: flex-end;
     justify-content: center;
   }
-
-  .subtitulo-1 {
-    color: #4a148c;
+  
+  .subtitulo-1{
+    color: #4A148C;
     font-size: 30px;
     font-family: gilroy-bold;
   }
-  .texto-renders {
+  .texto-renders{
     text-align: center;
   }
-  .ancho-parrafo {
+  .ancho-parrafo{
     font-size: 18px;
     font-family: gilroy-regular;
-  }
+  } 
 }
 
-@media (min-width: 992px) {
-  .subtitulo-principal {
+@media (min-width: 992px){
+  .subtitulo-principal{
     font-family: gilroy-bold;
     font-size: 48px;
-    /* background: linear-gradient(to right, #7c1dc9, #e91e63, #fc6b5f);
-    -webkit-text-fill-color: transparent !important; */
-    color: #4a148c;
-    margin-bottom: 100px;
+    background: linear-gradient(to right, #7C1DC9 , #E91E63 , #FC6B5F );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
-  .centrado-seccion {
+  .centrado-seccion{
     display: flex;
     align-items: flex-end;
     justify-content: center;
   }
-
-  .subtitulo-1 {
-    color: #4a148c;
+  
+  .subtitulo-1{
+    color: #4A148C;
     font-size: 60px;
     font-family: gilroy-bold;
+    line-height: 55px;
   }
-  .texto-renders {
+  .texto-renders{
     text-align: left;
   }
 
-  .ancho-parrafo {
+  .ancho-parrafo{
     font-size: 18px;
     font-family: gilroy-regular;
-  }
+  } 
 }
 /* FIN SECCION RENDER Y PARRAFOS */
 
@@ -546,7 +547,7 @@
 /* INICIO SECCION AGENDA UNA LLAMADA */
 @media (min-width: 320px) and (max-width: 767px) {
   .seccion-agenda {
-    height: 650px;
+    height: 680px;
     background-color: #4a148c;
     border-radius: 20px;
     width: auto !important;
