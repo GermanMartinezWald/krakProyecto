@@ -15,6 +15,8 @@
   <!-- owl carousel -->
   <link rel="stylesheet" href="./lib/owlCarousel/dist/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="./lib/owlCarousel/dist/assets/owl.theme.default.min.css">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/1410c65c78.js" crossorigin="anonymous"></script>
   <title>Document</title>
 </head>
 
@@ -217,30 +219,6 @@
     </button>
   </div>
   <!-- FIN CAROUSEL INFORMACION -->
-  <!-- INICIO DE TEXTO PARA VER COMO SE COMPORTA EL MENU CUANDO HAY CONTENIDO ABAJO, FUNCIONA CORRECTAMENTE-->
-  <!-- Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore tenetur, facere dignissimos consequuntur enim
-  molestiae, aperiam accusantium deserunt, mollitia corporis praesentium impedit similique provident ad totam?
-  Voluptatem hic iusto minus, nostrum quod beatae tempora illo nobis recusandae, atque reiciendis aut? Earum esse fuga
-  quo eaque porro facilis alias ad animi repellendus delectus dignissimos sed nostrum adipisci quisquam id expedita
-  molestias doloremque mollitia corporis tempora aliquam, enim harum. Repellat nobis quidem, aut illo eligendi
-  perspiciatis suscipit possimus atque pariatur maiores dolores? Tempore quasi natus nesciunt nisi odit, quo pariatur
-  molestias laboriosam adipisci voluptates voluptas quis et earum, ut officiis ex? Beatae velit eum facilis qui
-  architecto necessitatibus. Ipsam tempore doloribus nemo voluptatibus error, ratione consectetur quaerat. Modi illum,
-  deserunt id, laudantium pariatur perferendis dolorem neque repellat fugit sapiente nisi veniam cumque ad, optio
-  laboriosam. Temporibus animi deleniti rem at, dolorum iste qui porro doloremque ipsa similique eligendi error, commodi
-  dolores in?
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis numquam ipsum tenetur quam quia porro animi
-  similique molestiae perferendis consequatur optio alias nostrum aut voluptatibus aspernatur repudiandae quod
-  consequuntur maxime qui, quo dolores vitae sed architecto sapiente? Mollitia quod maiores harum magnam labore dicta
-  praesentium, repudiandae, vero qui quae itaque iusto blanditiis dignissimos. Dolorem, consectetur! Non ea aspernatur
-  nisi, esse nostrum magni odit, veritatis delectus iure porro labore error aperiam? Ipsum dolores obcaecati dignissimos
-  deleniti impedit non placeat magni officia illum! Optio beatae illum omnis quibusdam deserunt nisi quasi, magni
-  explicabo id atque non ipsum sint consequatur eligendi, ducimus sapiente. Perspiciatis quisquam cumque quae.
-  Exercitationem quaerat voluptatem accusamus maxime eos quos optio odit perspiciatis dicta quas ducimus alias facere
-  suscipit inventore itaque rem, unde ipsa. Ut, dignissimos impedit dolores molestiae tenetur reprehenderit accusantium
-  delectus, nesciunt neque similique non ea perspiciatis assumenda rem tempore exercitationem molestias hic culpa nulla,
-  excepturi eos. -->
-  <!-- FIN DE TEXTO PARA VER COMO SE COMPORTA EL MENU CUANDO HAY CONTENIDO ABAJO, FUNCIONA CORRECTAMENTE-->
 
   <!-- INICIO SECCION RENDER Y PARRAFOS -->
   <h2 class="container subtitulo-principal text-center mt-3">Somos un equipo de marketing y tecnología especializado en
@@ -321,7 +299,9 @@
   </section>
   <!-- FIN SEPARADOR EMPECEMOS -->
   <!-- INICIO CAROUSEL EMPRESAS -->
-  <section>
+  <section class="carousel-empresas">
+    <h2 class="subtitulo-carousel-empresas">Desarrolladores aliados
+    </h2>
     <div class="owl-carousel owl-two owl-theme">
       <div class="item-2">
         <img src="./img/Logos clientes/ammiraglia-01-01.png" alt="">
@@ -453,7 +433,9 @@
           <ul>
             <li class="item-agenda">Diferenciar tu emprendimiento</li>
             <li class="item-agenda">Crear una estrategia de comunicación</li>
+
             <li class="item-agenda">Cómo aprovechar las herramientas digitales</li>
+
             <li class="item-agenda">Como potenciar y aprovechar los contactos</li>
           </ul>
         </div>
@@ -534,9 +516,23 @@
       items: 3,
       loop: true,
       margin: 10,
+      dots: true,
+      dotsEach: 9,
       autoplay: true,
       autoplayTimeout: 5000,
-      autoplayHoverPause: true
+      autoplayHoverPause: true,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        767: {
+          items: 1,
+        },
+        991: {
+          items: 3,
+        }
+      }
     });
     $('.play').on('click', function () {
       owl.trigger('play.owl.autoplay', [1000])
@@ -552,7 +548,20 @@
       margin: 10,
       autoplay: true,
       autoplayTimeout: 5000,
-      autoplayHoverPause: true
+      autoplayHoverPause: true,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        767: {
+          items: 1,
+        },
+        991: {
+          items: 4,
+        }
+      }
+
     });
   </script>
   <!-- js -->
