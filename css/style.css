@@ -1256,3 +1256,309 @@
   }
 }
 /* FIN SECCION EMPECEMOS */
+
+/* INICIO FORMULARIO */
+
+.waveWrapper-3 {
+  overflow: hidden;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  background-image: url(../img/pictures/Formulario-final.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+.waveWrapperInner-top-2 {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  height: 932px !important;
+  bottom: 850px;
+  background-size: auto;
+}
+.waveWrapperInner {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  height: 932px !important;
+  bottom: 0px;
+  background-size: auto;
+}
+.bgTop {
+  z-index: 6;
+  opacity: 1;
+}
+.bgMiddle {
+  z-index: 6;
+  opacity: 1;
+}
+
+.wave {
+  position: absolute;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background-repeat: repeat no-repeat;
+  background-position: 0 bottom;
+  transform-origin: center bottom;
+}
+
+.waveMiddle {
+  background-size: 50% 120px;
+}
+.waveAnimation .waveMiddle {
+  -webkit-animation: move_wave 10s linear infinite;
+  animation: move_wave 10s linear infinite;
+}
+.seccion-contenedor-formulario {
+  /* width: 50%; */
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 10% auto;
+  border-radius: 20px;
+}
+
+.titulo-principal-formulario {
+  grid-area: titulo;
+  font-family: "gilroy-bold";
+  text-align: center;
+  font-size: 36px;
+  justify-self: start;
+  width: 100%;
+  color: #e91e63;
+}
+.formulario-campo {
+  background: #f5f5f5 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.formulario-campo::placeholder {
+  font-family: "gilroy-regular";
+  color: #4a148c !important;
+}
+
+.formulario-contacto-check-radio {
+  display: flex;
+}
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: #4a148c !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+textarea:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: #4a148c !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.titulo-check {
+  font-family: "gilroy-regular";
+  color: #4a148c;
+}
+
+.form-check {
+  font-family: "gilroy-regular";
+  margin-left: 5px;
+}
+
+.form-check-input:checked {
+  background-color: #4a148c !important;
+  color: #4a148c !important;
+}
+.boton-form {
+  width: 290px !important;
+  height: 50px !important;
+  font-size: 28px;
+}
+/* MEDIAQUERIES FORMULARIO CELULAR */
+@media (min-width: 320px) and (max-width: 767px) {
+  .seccion-contenedor-formulario {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 20% auto;
+    border-radius: 20px;
+  }
+
+  .titulo-principal-formulario {
+    grid-area: titulo;
+    font-family: "gilroy-bold";
+    text-align: center;
+    font-size: 36px;
+    justify-self: start;
+    width: 90% !important;
+    color: #e91e63;
+  }
+  .formulario-campo {
+    background: #f5f5f5 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+  }
+  .formulario-campo {
+    background: #f5f5f5 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+  }
+
+  .formulario-campo::placeholder {
+    font-family: "gilroy-regular";
+    color: #4a148c !important;
+    font-size: 14px;
+    padding: 0;
+  }
+
+  .titulo-principal-formulario {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .formulario-contacto-check-radio {
+    display: flex;
+    font-size: 14px;
+    margin: 20px 0px 0px 10px !important;
+    padding: 0 !important;
+    align-items: baseline !important;
+  }
+  input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: #4a148c !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: #4a148c !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .titulo-check {
+    font-family: "gilroy-regular";
+    color: #4a148c;
+    font-size: 14px;
+  }
+
+  .form-check {
+    font-family: "gilroy-regular";
+    margin-left: 10px;
+  }
+
+  .form-check-input:checked {
+    background-color: #4a148c !important;
+    color: #4a148c !important;
+  }
+  .boton-form {
+    width: 200px !important;
+    height: 50px !important;
+    font-size: 28px;
+    margin: 20px auto;
+    padding: 0;
+  }
+}
+/* FIN MEDIAQUERIES FORMULARIO CELULAR */
+/* MEDIAQUERIES FORMULARIO  TABLET */
+@media (min-width: 768px) and (max-width: 991px) {
+  .seccion-contenedor-formulario {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 10% auto;
+    border-radius: 20px;
+  }
+
+  .titulo-principal-formulario {
+    grid-area: titulo;
+    font-family: "gilroy-bold";
+    text-align: center;
+    font-size: 26px !important;
+    justify-self: start;
+    width: 90% !important;
+    color: #e91e63;
+  }
+  .formulario-campo {
+    background: #f5f5f5 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+  }
+  .formulario-campo {
+    background: #f5f5f5 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+  }
+
+  .formulario-campo::placeholder {
+    font-family: "gilroy-regular";
+    color: #4a148c !important;
+    font-size: 14px;
+  }
+
+  .titulo-principal-formulario {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .formulario-contacto-check-radio {
+    display: flex;
+    font-size: 14px;
+    margin: 20px 15px 5px 15px !important;
+    padding: 0 !important;
+  }
+  input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: #4a148c !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: #4a148c !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .titulo-check {
+    font-family: "gilroy-regular";
+    color: #4a148c;
+    font-size: 14px !important;
+  }
+
+  .form-check {
+    font-family: "gilroy-regular";
+    margin-left: 10px;
+  }
+
+  .form-check-input:checked {
+    background-color: #4a148c !important;
+    color: #4a148c !important;
+  }
+  .boton-form {
+    width: 200px !important;
+    height: 50px !important;
+    font-size: 28px !important;
+    margin: 20px auto;
+    padding: 0;
+  }
+}
+/* FIN MEDIAQUERIES FORMULARIO  TABLET */
+/* FIN FORMULARIO */
