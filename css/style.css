@@ -229,11 +229,27 @@
   left: -20%;
   top: 50%;
   z-index: 2 !important;
+  -webkit-animation-name: bounced;
   animation-name: bounced;
+  -webkit-animation-name: edi;
   animation-name: edi;
+  -webkit-animation-duration: 5s;
   animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
+}
+@-webkit-keyframes edi {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
 }
 @keyframes edi {
   0% {
@@ -252,10 +268,25 @@
   width: 30%;
   right: -5%;
   bottom: 55%;
+  -webkit-animation-name: float-bob-y;
   animation-name: float-bob-y;
+  -webkit-animation-duration: 10s;
   animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
+}
+@-webkit-keyframes float-bob-y {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
 }
 @keyframes float-bob-y {
   0% {
@@ -275,10 +306,26 @@
   width: 50%;
   right: -5%;
   bottom: 3%;
+  -webkit-animation-name: circ-lin;
   animation-name: circ-lin;
+  -webkit-animation-duration: 5s;
   animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
+}
+
+@-webkit-keyframes circ-lin {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
 }
 
 @keyframes circ-lin {
@@ -298,10 +345,26 @@
   width: 40%;
   left: -5%;
   bottom: -0%;
+  -webkit-animation-name: circ-2;
   animation-name: circ-2;
+  -webkit-animation-duration: 10s;
   animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes circ-2 {
+  0% {
+    transform: translateY(-30px);
+  }
+  50% {
+    transform: translateY(-0px);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
 }
 
 @keyframes circ-2 {
@@ -322,10 +385,26 @@
   width: 10%;
   left: 10%;
   top: 25%;
+  -webkit-animation-name: f-l;
   animation-name: f-l;
+  -webkit-animation-duration: 5s;
   animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes f-l {
+  0% {
+    transform: translateX(-20px);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(-20px);
+  }
 }
 
 @keyframes f-l {
@@ -345,10 +424,26 @@
   width: 10%;
   right: 15%;
   top: 15%;
+  -webkit-animation-name: f-r;
   animation-name: f-r;
+  -webkit-animation-duration: 9s;
   animation-duration: 9s;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes f-r {
+  0% {
+    transform: translateX(-30px);
+  }
+  50% {
+    transform: translateX(-0px);
+  }
+  100% {
+    transform: translateX(-30px);
+  }
 }
 
 @keyframes f-r {
@@ -418,11 +513,27 @@
     left: -18%;
     top: 55%;
     z-index: 2 !important;
+    -webkit-animation-name: bounced;
     animation-name: bounced;
+    -webkit-animation-name: edi;
     animation-name: edi;
+    -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+  }
+  @-webkit-keyframes edi {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
   }
   @keyframes edi {
     0% {
@@ -441,10 +552,25 @@
     width: 35%;
     right: -5%;
     bottom: 55%;
+    -webkit-animation-name: float-bob-y;
     animation-name: float-bob-y;
+    -webkit-animation-duration: 10s;
     animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+  }
+  @-webkit-keyframes float-bob-y {
+    0% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
   }
   @keyframes float-bob-y {
     0% {
@@ -464,10 +590,26 @@
     width: 50%;
     right: -5%;
     bottom: 3%;
+    -webkit-animation-name: circ-lin;
     animation-name: circ-lin;
+    -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+  }
+
+  @-webkit-keyframes circ-lin {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
   }
 
   @keyframes circ-lin {
@@ -487,10 +629,26 @@
     width: 40%;
     left: -5%;
     bottom: 5%;
+    -webkit-animation-name: circ-2;
     animation-name: circ-2;
+    -webkit-animation-duration: 10s;
     animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
+  }
+
+  @-webkit-keyframes circ-2 {
+    0% {
+      transform: translateY(-30px);
+    }
+    50% {
+      transform: translateY(-0px);
+    }
+    100% {
+      transform: translateY(-30px);
+    }
   }
 
   @keyframes circ-2 {
@@ -511,10 +669,26 @@
     width: 10%;
     left: 5%;
     top: 45%;
+    -webkit-animation-name: f-l;
     animation-name: f-l;
+    -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
+  }
+
+  @-webkit-keyframes f-l {
+    0% {
+      transform: translateX(-20px);
+    }
+    50% {
+      transform: translateX(-10px);
+    }
+    100% {
+      transform: translateX(-20px);
+    }
   }
 
   @keyframes f-l {
@@ -534,10 +708,26 @@
     width: 10%;
     right: 15%;
     top: 15%;
+    -webkit-animation-name: f-r;
     animation-name: f-r;
+    -webkit-animation-duration: 9s;
     animation-duration: 9s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
+  }
+
+  @-webkit-keyframes f-r {
+    0% {
+      transform: translateX(-30px);
+    }
+    50% {
+      transform: translateX(-0px);
+    }
+    100% {
+      transform: translateX(-30px);
+    }
   }
 
   @keyframes f-r {
@@ -609,11 +799,27 @@
     left: -18%;
     top: 40%;
     z-index: 2 !important;
+    -webkit-animation-name: bounced;
     animation-name: bounced;
+    -webkit-animation-name: edi;
     animation-name: edi;
+    -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+  }
+  @-webkit-keyframes edi {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
   }
   @keyframes edi {
     0% {
@@ -632,10 +838,25 @@
     width: 35%;
     right: -5%;
     bottom: 45%;
+    -webkit-animation-name: float-bob-y;
     animation-name: float-bob-y;
+    -webkit-animation-duration: 10s;
     animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+  }
+  @-webkit-keyframes float-bob-y {
+    0% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
   }
   @keyframes float-bob-y {
     0% {
@@ -655,10 +876,26 @@
     width: 50%;
     right: -5%;
     bottom: -3%;
+    -webkit-animation-name: circ-lin;
     animation-name: circ-lin;
+    -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+  }
+
+  @-webkit-keyframes circ-lin {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
   }
 
   @keyframes circ-lin {
@@ -678,10 +915,26 @@
     width: 40%;
     left: -5%;
     bottom: -5%;
+    -webkit-animation-name: circ-2;
     animation-name: circ-2;
+    -webkit-animation-duration: 10s;
     animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
+  }
+
+  @-webkit-keyframes circ-2 {
+    0% {
+      transform: translateY(-30px);
+    }
+    50% {
+      transform: translateY(-0px);
+    }
+    100% {
+      transform: translateY(-30px);
+    }
   }
 
   @keyframes circ-2 {
@@ -702,10 +955,26 @@
     width: 10%;
     left: 5%;
     top: 25%;
+    -webkit-animation-name: f-l;
     animation-name: f-l;
+    -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
+  }
+
+  @-webkit-keyframes f-l {
+    0% {
+      transform: translateX(-20px);
+    }
+    50% {
+      transform: translateX(-10px);
+    }
+    100% {
+      transform: translateX(-20px);
+    }
   }
 
   @keyframes f-l {
@@ -725,10 +994,26 @@
     width: 10%;
     right: 15%;
     top: 15%;
+    -webkit-animation-name: f-r;
     animation-name: f-r;
+    -webkit-animation-duration: 9s;
     animation-duration: 9s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
+  }
+
+  @-webkit-keyframes f-r {
+    0% {
+      transform: translateX(-30px);
+    }
+    50% {
+      transform: translateX(-0px);
+    }
+    100% {
+      transform: translateX(-30px);
+    }
   }
 
   @keyframes f-r {
@@ -792,6 +1077,17 @@
 @media (min-width: 2000px) {
   .waveWrapper2 {
     display: none;
+  }
+  @-webkit-keyframes move_wave {
+    0% {
+      transform: translateX(0) translateZ(0) scaleY(1);
+    }
+    50% {
+      transform: translateX(-25%) translateZ(0) scaleY(0.55);
+    }
+    100% {
+      transform: translateX(-50%) translateZ(0) scaleY(1);
+    }
   }
   @keyframes move_wave {
     0% {
@@ -861,11 +1157,27 @@
     left: -13%;
     top: 38%;
     z-index: 2 !important;
+    -webkit-animation-name: bounced;
     animation-name: bounced;
+    -webkit-animation-name: edi;
     animation-name: edi;
+    -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+  }
+  @-webkit-keyframes edi {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
   }
   @keyframes edi {
     0% {
@@ -884,10 +1196,25 @@
     width: 35%;
     right: -5%;
     bottom: 45%;
+    -webkit-animation-name: float-bob-y;
     animation-name: float-bob-y;
+    -webkit-animation-duration: 10s;
     animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+  }
+  @-webkit-keyframes float-bob-y {
+    0% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
   }
   @keyframes float-bob-y {
     0% {
@@ -907,10 +1234,26 @@
     width: 50%;
     right: -5%;
     bottom: -3%;
+    -webkit-animation-name: circ-lin;
     animation-name: circ-lin;
+    -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+  }
+
+  @-webkit-keyframes circ-lin {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
   }
 
   @keyframes circ-lin {
@@ -930,10 +1273,26 @@
     width: 40%;
     left: -5%;
     bottom: -10%;
+    -webkit-animation-name: circ-2;
     animation-name: circ-2;
+    -webkit-animation-duration: 10s;
     animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
+  }
+
+  @-webkit-keyframes circ-2 {
+    0% {
+      transform: translateY(-30px);
+    }
+    50% {
+      transform: translateY(-0px);
+    }
+    100% {
+      transform: translateY(-30px);
+    }
   }
 
   @keyframes circ-2 {
@@ -954,10 +1313,26 @@
     width: 10%;
     left: 5%;
     top: 25%;
+    -webkit-animation-name: f-l;
     animation-name: f-l;
+    -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
+  }
+
+  @-webkit-keyframes f-l {
+    0% {
+      transform: translateX(-20px);
+    }
+    50% {
+      transform: translateX(-10px);
+    }
+    100% {
+      transform: translateX(-20px);
+    }
   }
 
   @keyframes f-l {
@@ -977,10 +1352,26 @@
     width: 10%;
     right: 15%;
     top: 15%;
+    -webkit-animation-name: f-r;
     animation-name: f-r;
+    -webkit-animation-duration: 9s;
     animation-duration: 9s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
+  }
+
+  @-webkit-keyframes f-r {
+    0% {
+      transform: translateX(-30px);
+    }
+    50% {
+      transform: translateX(-0px);
+    }
+    100% {
+      transform: translateX(-30px);
+    }
   }
 
   @keyframes f-r {
@@ -1044,6 +1435,17 @@
 /* HEADER CELULAR Y TABLETS */
 
 @media (min-width: 320px) and (max-width: 500px) {
+  @-webkit-keyframes move_wave {
+    0% {
+      transform: translateX(0) translateZ(0) scaleY(1);
+    }
+    50% {
+      transform: translateX(-25%) translateZ(0) scaleY(0.55);
+    }
+    100% {
+      transform: translateX(-50%) translateZ(0) scaleY(1);
+    }
+  }
   @keyframes move_wave {
     0% {
       transform: translateX(0) translateZ(0) scaleY(1);
@@ -1111,6 +1513,17 @@
   .imagen-flotante-header2 {
     display: none;
   }
+  @-webkit-keyframes edi {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
   @keyframes edi {
     0% {
       transform: translateY(-20px);
@@ -1128,10 +1541,25 @@
     width: 30%;
     right: -5%;
     bottom: 41%;
+    -webkit-animation-name: float-bob-y;
     animation-name: float-bob-y;
+    -webkit-animation-duration: 10s;
     animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+  }
+  @-webkit-keyframes float-bob-y {
+    0% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
   }
   @keyframes float-bob-y {
     0% {
@@ -1150,10 +1578,26 @@
     width: 35%;
     left: -5%;
     bottom: 0%;
+    -webkit-animation-name: circ-2;
     animation-name: circ-2;
+    -webkit-animation-duration: 10s;
     animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
+  }
+
+  @-webkit-keyframes circ-2 {
+    0% {
+      transform: translateY(-30px);
+    }
+    50% {
+      transform: translateY(-0px);
+    }
+    100% {
+      transform: translateY(-30px);
+    }
   }
 
   @keyframes circ-2 {
@@ -1173,10 +1617,26 @@
     width: 35%;
     right: -5%;
     bottom: 6%;
+    -webkit-animation-name: circ-lin;
     animation-name: circ-lin;
+    -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+  }
+
+  @-webkit-keyframes circ-lin {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
   }
 
   @keyframes circ-lin {
@@ -1196,10 +1656,26 @@
     width: 35%;
     left: -5%;
     top: 3%;
+    -webkit-animation-name: circ-lin-inv;
     animation-name: circ-lin-inv;
+    -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+  }
+
+  @-webkit-keyframes circ-lin-inv {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
   }
 
   @keyframes circ-lin-inv {
@@ -1219,10 +1695,29 @@
     width: 15% !important;
     right: 0%;
     top: 10%;
+    -webkit-animation-name: puntos;
     animation-name: puntos;
+    -webkit-animation-duration: 15s;
     animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
+  }
+
+  @-webkit-keyframes puntos {
+    0% {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0.9);
+      opacity: 0;
+    }
   }
 
   @keyframes puntos {
@@ -1243,6 +1738,18 @@
     display: none;
   }
 
+  @-webkit-keyframes f-l {
+    0% {
+      transform: translateX(-20px);
+    }
+    50% {
+      transform: translateX(-10px);
+    }
+    100% {
+      transform: translateX(-20px);
+    }
+  }
+
   @keyframes f-l {
     0% {
       transform: translateX(-20px);
@@ -1256,6 +1763,18 @@
   }
   .flecha-right2 {
     display: none;
+  }
+
+  @-webkit-keyframes f-r {
+    0% {
+      transform: translateX(-30px);
+    }
+    50% {
+      transform: translateX(-0px);
+    }
+    100% {
+      transform: translateX(-30px);
+    }
   }
 
   @keyframes f-r {
@@ -1305,6 +1824,17 @@
 }
 
 @media (min-width: 501px) and (max-width: 600px) {
+  @-webkit-keyframes move_wave {
+    0% {
+      transform: translateX(0) translateZ(0) scaleY(1);
+    }
+    50% {
+      transform: translateX(-25%) translateZ(0) scaleY(0.55);
+    }
+    100% {
+      transform: translateX(-50%) translateZ(0) scaleY(1);
+    }
+  }
   @keyframes move_wave {
     0% {
       transform: translateX(0) translateZ(0) scaleY(1);
@@ -1372,6 +1902,17 @@
   .imagen-flotante-header2 {
     display: none;
   }
+  @-webkit-keyframes edi {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
   @keyframes edi {
     0% {
       transform: translateY(-20px);
@@ -1389,10 +1930,25 @@
     width: 25%;
     right: -5%;
     bottom: 35%;
+    -webkit-animation-name: float-bob-y;
     animation-name: float-bob-y;
+    -webkit-animation-duration: 10s;
     animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+  }
+  @-webkit-keyframes float-bob-y {
+    0% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
   }
   @keyframes float-bob-y {
     0% {
@@ -1411,10 +1967,26 @@
     width: 35%;
     left: -0%;
     bottom: 0%;
+    -webkit-animation-name: circ-2;
     animation-name: circ-2;
+    -webkit-animation-duration: 10s;
     animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
+  }
+
+  @-webkit-keyframes circ-2 {
+    0% {
+      transform: translateY(-30px);
+    }
+    50% {
+      transform: translateY(-0px);
+    }
+    100% {
+      transform: translateY(-30px);
+    }
   }
 
   @keyframes circ-2 {
@@ -1434,10 +2006,26 @@
     width: 35%;
     right: -5%;
     bottom: 6%;
+    -webkit-animation-name: circ-lin;
     animation-name: circ-lin;
+    -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+  }
+
+  @-webkit-keyframes circ-lin {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
   }
 
   @keyframes circ-lin {
@@ -1457,10 +2045,26 @@
     width: 35%;
     left: -5%;
     top: 3%;
+    -webkit-animation-name: circ-lin-inv;
     animation-name: circ-lin-inv;
+    -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+  }
+
+  @-webkit-keyframes circ-lin-inv {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
   }
 
   @keyframes circ-lin-inv {
@@ -1480,10 +2084,29 @@
     width: 15%;
     right: 0%;
     top: 2%;
+    -webkit-animation-name: puntos;
     animation-name: puntos;
+    -webkit-animation-duration: 15s;
     animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
+  }
+
+  @-webkit-keyframes puntos {
+    0% {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0.9);
+      opacity: 0;
+    }
   }
 
   @keyframes puntos {
@@ -1504,6 +2127,18 @@
     display: none;
   }
 
+  @-webkit-keyframes f-l {
+    0% {
+      transform: translateX(-20px);
+    }
+    50% {
+      transform: translateX(-10px);
+    }
+    100% {
+      transform: translateX(-20px);
+    }
+  }
+
   @keyframes f-l {
     0% {
       transform: translateX(-20px);
@@ -1517,6 +2152,18 @@
   }
   .flecha-right2 {
     display: none;
+  }
+
+  @-webkit-keyframes f-r {
+    0% {
+      transform: translateX(-30px);
+    }
+    50% {
+      transform: translateX(-0px);
+    }
+    100% {
+      transform: translateX(-30px);
+    }
   }
 
   @keyframes f-r {
@@ -1566,6 +2213,17 @@
 }
 
 @media (min-width: 501px) and (max-width: 767px) {
+  @-webkit-keyframes move_wave {
+    0% {
+      transform: translateX(0) translateZ(0) scaleY(1);
+    }
+    50% {
+      transform: translateX(-25%) translateZ(0) scaleY(0.55);
+    }
+    100% {
+      transform: translateX(-50%) translateZ(0) scaleY(1);
+    }
+  }
   @keyframes move_wave {
     0% {
       transform: translateX(0) translateZ(0) scaleY(1);
@@ -1633,6 +2291,17 @@
   .imagen-flotante-header2 {
     display: none;
   }
+  @-webkit-keyframes edi {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
   @keyframes edi {
     0% {
       transform: translateY(-20px);
@@ -1650,10 +2319,25 @@
     width: 25%;
     right: 5%;
     bottom: 35%;
+    -webkit-animation-name: float-bob-y;
     animation-name: float-bob-y;
+    -webkit-animation-duration: 10s;
     animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+  }
+  @-webkit-keyframes float-bob-y {
+    0% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
   }
   @keyframes float-bob-y {
     0% {
@@ -1672,10 +2356,26 @@
     width: 35%;
     left: -0%;
     bottom: -10%;
+    -webkit-animation-name: circ-2;
     animation-name: circ-2;
+    -webkit-animation-duration: 10s;
     animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
+  }
+
+  @-webkit-keyframes circ-2 {
+    0% {
+      transform: translateY(-30px);
+    }
+    50% {
+      transform: translateY(-0px);
+    }
+    100% {
+      transform: translateY(-30px);
+    }
   }
 
   @keyframes circ-2 {
@@ -1695,10 +2395,26 @@
     width: 35%;
     right: -5%;
     bottom: 6%;
+    -webkit-animation-name: circ-lin;
     animation-name: circ-lin;
+    -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+  }
+
+  @-webkit-keyframes circ-lin {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
   }
 
   @keyframes circ-lin {
@@ -1718,10 +2434,26 @@
     width: 35%;
     left: -5%;
     top: 3%;
+    -webkit-animation-name: circ-lin-inv;
     animation-name: circ-lin-inv;
+    -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+  }
+
+  @-webkit-keyframes circ-lin-inv {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
   }
 
   @keyframes circ-lin-inv {
@@ -1741,10 +2473,29 @@
     width: 12%;
     right: 0%;
     top: 2%;
+    -webkit-animation-name: puntos;
     animation-name: puntos;
+    -webkit-animation-duration: 15s;
     animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
+  }
+
+  @-webkit-keyframes puntos {
+    0% {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0.9);
+      opacity: 0;
+    }
   }
 
   @keyframes puntos {
@@ -1765,6 +2516,18 @@
     display: none;
   }
 
+  @-webkit-keyframes f-l {
+    0% {
+      transform: translateX(-20px);
+    }
+    50% {
+      transform: translateX(-10px);
+    }
+    100% {
+      transform: translateX(-20px);
+    }
+  }
+
   @keyframes f-l {
     0% {
       transform: translateX(-20px);
@@ -1778,6 +2541,18 @@
   }
   .flecha-right2 {
     display: none;
+  }
+
+  @-webkit-keyframes f-r {
+    0% {
+      transform: translateX(-30px);
+    }
+    50% {
+      transform: translateX(-0px);
+    }
+    100% {
+      transform: translateX(-30px);
+    }
   }
 
   @keyframes f-r {
@@ -1827,6 +2602,17 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  @-webkit-keyframes move_wave {
+    0% {
+      transform: translateX(0) translateZ(0) scaleY(1);
+    }
+    50% {
+      transform: translateX(-25%) translateZ(0) scaleY(0.55);
+    }
+    100% {
+      transform: translateX(-50%) translateZ(0) scaleY(1);
+    }
+  }
   @keyframes move_wave {
     0% {
       transform: translateX(0) translateZ(0) scaleY(1);
@@ -1897,11 +2683,27 @@
     left: -18%;
     top: 65%;
     z-index: 2 !important;
+    -webkit-animation-name: bounced;
     animation-name: bounced;
+    -webkit-animation-name: edi;
     animation-name: edi;
+    -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+  }
+  @-webkit-keyframes edi {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
   }
   @keyframes edi {
     0% {
@@ -1920,10 +2722,25 @@
     width: 35%;
     right: -5%;
     bottom: 55%;
+    -webkit-animation-name: float-bob-y;
     animation-name: float-bob-y;
+    -webkit-animation-duration: 10s;
     animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+  }
+  @-webkit-keyframes float-bob-y {
+    0% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
   }
   @keyframes float-bob-y {
     0% {
@@ -1943,10 +2760,26 @@
     width: 50%;
     right: -5%;
     bottom: 3%;
+    -webkit-animation-name: circ-lin;
     animation-name: circ-lin;
+    -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+  }
+
+  @-webkit-keyframes circ-lin {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
   }
 
   @keyframes circ-lin {
@@ -1966,10 +2799,26 @@
     width: 40%;
     left: -5%;
     bottom: 5%;
+    -webkit-animation-name: circ-2;
     animation-name: circ-2;
+    -webkit-animation-duration: 10s;
     animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
+  }
+
+  @-webkit-keyframes circ-2 {
+    0% {
+      transform: translateY(-30px);
+    }
+    50% {
+      transform: translateY(-0px);
+    }
+    100% {
+      transform: translateY(-30px);
+    }
   }
 
   @keyframes circ-2 {
@@ -1990,10 +2839,26 @@
     width: 10%;
     left: 5%;
     top: 55%;
+    -webkit-animation-name: f-l;
     animation-name: f-l;
+    -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
+  }
+
+  @-webkit-keyframes f-l {
+    0% {
+      transform: translateX(-20px);
+    }
+    50% {
+      transform: translateX(-10px);
+    }
+    100% {
+      transform: translateX(-20px);
+    }
   }
 
   @keyframes f-l {
@@ -2013,10 +2878,26 @@
     width: 10%;
     right: 15%;
     top: 15%;
+    -webkit-animation-name: f-r;
     animation-name: f-r;
+    -webkit-animation-duration: 9s;
     animation-duration: 9s;
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
+  }
+
+  @-webkit-keyframes f-r {
+    0% {
+      transform: translateX(-30px);
+    }
+    50% {
+      transform: translateX(-0px);
+    }
+    100% {
+      transform: translateX(-30px);
+    }
   }
 
   @keyframes f-r {
