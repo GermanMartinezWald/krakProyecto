@@ -3038,8 +3038,22 @@
 /* FIN MENU */
 
 /* INICIO SECCION RENDER Y PARRAFOS  */
+/* Pegalo aca y las clases van adentro de la media de 320 a 667 */
+@media (min-width: 320px) and (max-width: 667px) {
+  .seccion-desktop-icons {
+    display: none;
+  }
 
-@media (min-width: 320px) and (max-width: 992px) {
+  .subtitulo-principal {
+    font-family: gilroy-bold;
+    font-size: 25px;
+    background: linear-gradient(to right, #7c1dc9, #e91e63, #fc6b5f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@media (min-width: 668px) and (max-width: 992px) {
   .subtitulo-principal {
     font-family: gilroy-black;
     font-size: 25px;
@@ -3069,7 +3083,8 @@
 
 @media (min-width: 992px) {
   .subtitulo-principal {
-    font-family: gilroy-black;
+    line-height: 50px;
+    font-family: gilroy-rock;
     font-size: 48px;
     background: linear-gradient(to right, #7c1dc9, #e91e63, #fc6b5f);
     -webkit-background-clip: text;
@@ -3110,7 +3125,7 @@
 
   .subtitulo-planes {
     color: #4a148c;
-    font-family: gilroy-black;
+    font-family: gilroy-bold;
     font-size: 36px;
     text-align: center;
   }
@@ -3174,7 +3189,7 @@
 
   .subtitulo-planes {
     color: #4a148c;
-    font-family: gilroy-black;
+    font-family: gilroy-bold;
     font-size: 36px;
     text-align: center;
   }
@@ -3238,7 +3253,7 @@
 
   .subtitulo-planes {
     color: #4a148c;
-    font-family: gilroy-black;
+    font-family: gilroy-bold;
     font-size: 60px;
     margin-left: 20px;
     margin-bottom: 85px;
@@ -3306,7 +3321,7 @@
 
   .subtitulo-planes {
     color: #4a148c;
-    font-family: gilroy-black;
+    font-family: gilroy-bold;
     font-size: 60px;
     margin-left: 20px;
     margin-bottom: 85px;
@@ -3318,7 +3333,7 @@
   }
 
   .parrafo-planes {
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
     color: #4a148c;
   }
@@ -3360,7 +3375,7 @@
   }
 
   .margen-boton {
-    margin-top: 88px !important;
+    margin-top: 80px !important;
   }
 }
 /* FIN SECCION PLANES PERSONALIZADOS */
