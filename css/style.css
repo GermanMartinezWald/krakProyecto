@@ -3121,8 +3121,9 @@
     .borde-cards-planes {
       border: 4px solid #4a148c;
       border-radius: 20px;
-      margin: 15px;
+      margin: 50px;
       width: 400px !important;
+    
     }
   
     .subtitulo-planes {
@@ -3130,6 +3131,8 @@
       font-family: gilroy-bold;
       font-size: 36px;
       text-align: center;
+      margin-top: 80px;
+      margin-bottom: 70px;
     }
   
     .subtitulo-h3 {
@@ -3141,6 +3144,7 @@
       font-size: 20px;
       text-align: center;
       color: #4a148c;
+      font-family: gilroy-medium;
     }
   
     .boton-planes {
@@ -3256,9 +3260,10 @@
     .subtitulo-planes {
       color: #4a148c;
       font-family: gilroy-bold;
-      font-size: 60px;
+      font-size: 72px;
       margin-left: 20px;
       margin-bottom: 85px;
+      text-align: center;
     }
   
     .subtitulo-h3 {
@@ -3314,75 +3319,75 @@
     }
   }
   
-  @media (min-width: 1280px) {
-    .borde-cards-planes {
-      border: 4px solid #4a148c;
-      border-radius: 20px;
-      margin: 15px;
-      width: 30% !important;
-    }
-  
-    .subtitulo-planes {
-      color: #4a148c;
-      font-family: gilroy-bold;
-      font-size: 60px;
-      margin-left: 20px;
-      margin-bottom: 85px;
-    }
-  
-    .subtitulo-h3 {
-      color: #e91e63;
-      font-size: 48px;
-    }
-  
-    .parrafo-planes {
-      font-size: 22px;
-      text-align: center;
-      color: #4a148c;
-    }
-  
-    .boton-planes {
-      display: flex;
-      justify-content: center;
-  
-    }
-  
-    .btn-planes {
-      font-family: "gilroy-bold", sans-serif;
-      width: 250px;
-      height: 70px !important;
-      font-size: 25px;
-      font-weight: normal;
-      color: #fff;
-      cursor: pointer;
-      margin: 20px;
-      height: 55px;
-      text-align: center;
-      border: none;
-      background-size: 300% 100%;
-      border-radius: 50px;
-      transition: all 0.4s ease-in-out;
-    }
-  
-    .btn-planes:hover {
-      background-position: 100% 0;
-      /* moz-transition: all 0.4s ease-in-out; */
-      transition: all 0.4s ease-in-out;
-    }
-  
-    .btn-planes:focus {
-      outline: none;
-    }
-  
-    .btn-planes.color-2 {
-      background-image: linear-gradient(to right, #e91e63, #df316b, #fc6b5f);
-    }
-  
-    .margen-boton {
-      margin-top: 80px !important;
-    }
+@media (min-width: 1280px) {
+  .borde-cards-planes {
+    border: 4px solid #4a148c;
+    border-radius: 20px;
+    margin: 15px;
+    width: 30% !important;
   }
-  /* FIN SECCION PLANES PERSONALIZADOS */
+
+  .subtitulo-planes {
+    color: #4a148c;
+    font-family: gilroy-bold;
+    font-size: 60px;
+    margin-left: 20px;
+    margin-bottom: 85px;
+  }
+
+  .subtitulo-h3 {
+    color: #e91e63;
+    font-size: 48px;
+  }
+
+  .parrafo-planes {
+    font-size: 22px;
+    text-align: center;
+    color: #4a148c;
+  }
+
+  .boton-planes {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .btn-planes {
+    font-family: "gilroy-bold", sans-serif;
+    width: 250px;
+    height: 70px !important;
+    font-size: 25px;
+    font-weight: normal;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .btn-planes:hover {
+    background-position: 100% 0;
+    /* moz-transition: all 0.4s ease-in-out; */
+    transition: all 0.4s ease-in-out;
+  }
+
+  .btn-planes:focus {
+    outline: none;
+  }
+
+  .btn-planes.color-2 {
+    background-image: linear-gradient(to right, #e91e63, #df316b, #fc6b5f);
+  }
+
+  .margen-boton {
+    margin-top: 80px !important;
+  }
+}
+/* FIN SECCION PLANES PERSONALIZADOS */
 
 /* INICIO SECCION AGENDA UNA LLAMADA */
 @media (min-width: 320px) and (max-width: 767px) {
@@ -3391,7 +3396,8 @@
     background-color: #4a148c;
     border-radius: 20px;
     width: auto !important;
-    margin: 20px !important;
+    margin: 60px 20px 20px 20px !important;
+  
   }
 
   .subtitulo-agenda {
@@ -3448,7 +3454,7 @@
     border-radius: 20px;
     width: auto !important;
     margin: 20px !important;
-    margin-top: 100px !important;
+    margin-top: 200px !important;
   }
 
   .subtitulo-agenda {
@@ -3502,7 +3508,7 @@
     border-radius: 20px;
     width: auto !important;
     margin: 20px !important;
-    margin-top: 100px !important;
+    margin-top: 150px !important;
   }
 
   .subtitulo-agenda {
@@ -3762,7 +3768,7 @@
   /* background: linear-gradient(to right, #7c1dc9, #e91e63, #fc6b5f);
     -webkit-text-fill-color: transparent !important; */
   color: #4a148c;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .item-2 {
   display: flex;
@@ -4412,7 +4418,7 @@ textarea:focus {
     background-size: cover;
     width: 100%;
     height: 800px;
-    margin-top: 250px !important;
+    margin-top: 130px !important;
   }
   .seccion-contenedor-formulario {
     width: 50%;
