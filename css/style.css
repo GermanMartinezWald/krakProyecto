@@ -3040,7 +3040,7 @@
 /* INICIO SECCION RENDER Y PARRAFOS  */
 /* Pegalo aca y las clases van adentro de la media de 320 a 667 */
 @media (min-width: 320px) and (max-width: 667px) {
-  .seccion-desktop-icons{
+  .seccion-desktop-icons {
     display: none;
   }
 
@@ -3049,19 +3049,17 @@
     font-size: 25px;
     background: linear-gradient(to right, #7c1dc9, #e91e63, #fc6b5f);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
   }
-
 }
 
-@media (min-width: 668px) and (max-width: 992px){
-
+@media (min-width: 668px) and (max-width: 992px) {
   .subtitulo-principal {
-    font-family: gilroy-bold;
+    font-family: gilroy-black;
     font-size: 25px;
     background: linear-gradient(to right, #7c1dc9, #e91e63, #fc6b5f);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
   }
   .centrado-seccion {
     display: flex;
@@ -3072,7 +3070,7 @@
   .subtitulo-1 {
     color: #4a148c;
     font-size: 30px;
-    font-family: gilroy-bold;
+    font-family: gilroy-black;
   }
   .texto-renders {
     text-align: center;
@@ -3086,11 +3084,11 @@
 @media (min-width: 992px) {
   .subtitulo-principal {
     line-height: 50px;
-    font-family: gilroy-bold;
+    font-family: gilroy-rock;
     font-size: 48px;
     background: linear-gradient(to right, #7c1dc9, #e91e63, #fc6b5f);
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   .centrado-seccion {
     display: flex;
@@ -3101,7 +3099,7 @@
   .subtitulo-1 {
     color: #4a148c;
     font-size: 60px;
-    font-family: gilroy-bold;
+    font-family: gilroy-black;
     line-height: 55px;
   }
   .texto-renders {
@@ -3349,7 +3347,6 @@
   .boton-planes {
     display: flex;
     justify-content: center;
-
   }
 
   .btn-planes {
@@ -3406,7 +3403,7 @@
     margin-top: 10px !important;
     margin-left: 30px !important;
     line-height: 40px;
-    font-family: gilroy-bold;
+    font-family: gilroy-black;
   }
 
   .parrafo-agenda {
@@ -3447,7 +3444,7 @@
   }
 }
 
-@media (min-width: 767px) and (max-width: 1100px){
+@media (min-width: 767px) and (max-width: 1100px) {
   .seccion-agenda {
     height: 100%;
     background-color: #4a148c;
@@ -3463,7 +3460,7 @@
     margin-top: 10px !important;
     margin-left: 30px !important;
     line-height: 40px;
-    font-family: gilroy-bold;
+    font-family: gilroy-black;
   }
 
   .parrafo-agenda {
@@ -3501,7 +3498,7 @@
   }
 }
 
-@media (min-width: 1101px){
+@media (min-width: 1101px) {
   .seccion-agenda {
     height: 100%;
     background-color: #4a148c;
@@ -3517,7 +3514,7 @@
     margin-top: 10px !important;
     margin-left: 30px !important;
     line-height: 40px;
-    font-family: gilroy-bold;
+    font-family: gilroy-black;
   }
 
   .parrafo-agenda {
@@ -3562,19 +3559,25 @@
   margin-top: 50px;
   margin-bottom: 100px;
 }
-.owl-item {
+/* .owl-item {
   width: 320px !important;
   height: 450px !important;
   display: flex;
   justify-content: center;
   margin: 10px 20px 10px 20px !important;
+} */
+.item {
+  width: 350px !important;
 }
-
+.active {
+  width: 350px !important;
+}
 .imagen-carousel {
   width: 320px !important;
   height: 450px !important;
   border-radius: 20px;
   opacity: 90%;
+  margin: 10px !important;
 }
 
 .owl-dots {
@@ -3629,7 +3632,7 @@
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .owl-carousel {
-    display: none !important;
+    display: inline !important;
   }
   .carousel-frases-mobile {
     display: inline;
@@ -3759,11 +3762,12 @@
 
 /* INICIO carousel EMPRESAS */
 .carousel-empresas {
-  height: 500px;
+  height: 400px;
+  margin-bottom: 0px;
 }
 .subtitulo-carousel-empresas {
   text-align: center;
-  font-family: gilroy-bold;
+  font-family: gilroy-black;
   font-size: 72px;
   /* background: linear-gradient(to right, #7c1dc9, #e91e63, #fc6b5f);
     -webkit-text-fill-color: transparent !important; */
@@ -3774,17 +3778,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2) !important;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  width: 500px !important;
-  height: 170px;
-  border-radius: 5px;
-  margin: 20px;
+  /* box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2) !important;
+  border: 1px solid rgba(0, 0, 0, 0.2); */
+  width: 300px !important;
+  height: 200px;
+  align-self: unset;
 }
 
 .item-2 img {
   width: 300px !important;
-  height: 90px !important;
+  height: auto;
 }
 .carousel-empresas-mobile {
   display: none;
@@ -3824,8 +3827,8 @@
     border-radius: 20px;
     opacity: 90%;
     border-radius: 20px;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2) !important;
-    border: 1px solid rgba(0, 0, 0, 0.2) !important;
+    /* box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2) !important;
+    border: 1px solid rgba(0, 0, 0, 0.2) !important; */
     padding: 20px;
   }
   .carousel-caption {
@@ -3948,7 +3951,7 @@
 
 .titulo-principal-empecemos {
   grid-area: titulo;
-  font-family: "gilroy-bold";
+  font-family: "gilroy-black";
   text-align: center;
   font-size: 5vw;
   justify-self: start;
@@ -4032,8 +4035,9 @@
     width: 100%;
     overflow: hidden;
     height: 932px !important;
-    bottom: -2px !important;
+    bottom: -30px !important;
     background-size: auto;
+    z-index: 6;
   }
   .bgTop {
     z-index: 6;
@@ -4084,7 +4088,7 @@
 
   .titulo-principal-empecemos {
     grid-area: titulo;
-    font-family: "gilroy-bold";
+    font-family: "gilroy-black";
     width: 800px;
     text-align: center;
     font-size: 34px;
@@ -4331,7 +4335,7 @@
 
 .titulo-principal-formulario {
   grid-area: titulo;
-  font-family: "gilroy-bold";
+  font-family: "gilroy-black";
   text-align: center;
   font-size: 36px;
   justify-self: start;
@@ -4434,7 +4438,7 @@ textarea:focus {
 
   .titulo-principal-formulario {
     grid-area: titulo;
-    font-family: "gilroy-bold";
+    font-family: "gilroy-black";
     text-align: center;
     font-size: 36px;
     justify-self: start;
@@ -4553,7 +4557,7 @@ textarea:focus {
 
   .titulo-principal-formulario {
     grid-area: titulo;
-    font-family: "gilroy-bold";
+    font-family: "gilroy-black";
     text-align: center;
     font-size: 26px !important;
     justify-self: start;
