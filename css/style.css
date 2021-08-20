@@ -3036,6 +3036,9 @@
   }
 }
 /* FIN MENU */
+.contenedor-card-cascada {
+  display: none;
+}
 
 /* INICIO SECCION RENDER Y PARRAFOS  */
 /* Pegalo aca y las clases van adentro de la media de 320 a 667 */
@@ -3043,7 +3046,6 @@
   .seccion-desktop-icons {
     display: none;
   }
-
   .subtitulo-principal {
     font-family: gilroy-black;
     font-size: 25px;
@@ -3053,114 +3055,128 @@
   }
 
   /* INICIO CARD-CASCADA */
-.accordion-item {
-  width: 302px !important;
-  background-color: transparent !important;
-  background-color: white !important;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 6px !important;
-}
-.card-accordion {
-  width: 300px;
-  margin: 50px auto;
-}
-.accordion-header {
-  width: 300px !important;
-  height: 330px !important;
-  box-shadow: none !important;
-}
-.accordion-button {
-  width: 100% !important;
-  height: 100% !important;
-  background-color: white !important;
-  box-shadow: none !important;
-  padding: 0% !important;
-}
+  .contenedor-card-cascada {
+    display: inline;
+  }
+  .accordion-item {
+    width: 302px !important;
+    background-color: transparent !important;
+    background-color: white !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px !important;
+  }
+  .card-accordion {
+    width: 300px;
+    margin: 50px auto;
+  }
+  .accordion-header {
+    width: 300px !important;
+    height: 335px !important;
+    box-shadow: none !important;
+  }
+  .accordion-button {
+    width: 100% !important;
+    height: 100% !important;
+    background-color: white !important;
+    box-shadow: none !important;
+    padding: 0% !important;
+  }
 
-.accordion-button:focus {
-  outline: none !important;
-  box-shadow: none !important;
-}
+  .accordion-button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
 
-.accordion-button:focus {
-  outline: none !important;
-  box-shadow: none !important;
-}
-.accordion-button::after {
-  display: none !important;
-}
-.imagen-card {
-  width: 150px;
-}
-.contenedor-info-titulo-card {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.imagen-card {
-  width: 200px;
-}
-.titulo-card-2 {
-  width: 90%;
-  font-family: "gilroy-bold";
-  text-align: center;
-  color: #4a148c !important;
-  font-size: 36px;
-  padding: 10px 0px 0px 0px;
-}
-.icono-card {
-  width: 65px;
-  position: relative;
-  margin: auto;
-  margin-top: -8px;
-}
+  .accordion-button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .accordion-button::after {
+    display: none !important;
+  }
+  .imagen-card {
+    width: 150px;
+  }
+  .contenedor-info-titulo-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .imagen-card {
+    width: 200px;
+  }
+  .titulo-card-2 {
+    width: 90%;
+    font-family: "gilroy-bold";
+    text-align: center;
+    color: #4a148c !important;
+    font-size: 30px;
+    padding: 0px 0px 0px 0px;
+  }
+  .icono-card {
+    width: 55px;
+    position: relative;
+    margin: auto;
+    margin-top: -8px;
+  }
+  .icono-card-2 {
+    width: 55px;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .icono-card-3 {
+    width: 55px;
+    position: relative;
+    margin: auto;
+    margin-top: 65px;
+  }
+  .accordion-body {
+    font-family: "gilroy-regular";
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+  }
+  /* #$%% */
 
-.accordion-body {
-  font-family: "gilroy-regular";
-  width: 100%;
-  padding: 10px;
-  margin-top: 20px;
-  font-size: 12px;
-  text-align: center;
-}
-/* #$%% */
+  .btn-liquid {
+    display: inline-block;
+    position: relative;
+    width: 240px;
+    height: 60px;
 
-.btn-liquid {
-  display: inline-block;
-  position: relative;
-  width: 240px;
-  height: 60px;
+    border-radius: 27px;
 
-  border-radius: 27px;
+    color: #fff;
+    font: 700 14px/60px "Droid Sans", sans-serif;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
 
-  color: #fff;
-  font: 700 14px/60px "Droid Sans", sans-serif;
-  letter-spacing: 0.05em;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-}
+  .btn-liquid .inner {
+    position: relative;
 
-.btn-liquid .inner {
-  position: relative;
+    z-index: 2;
+  }
 
-  z-index: 2;
-}
+  .btn-liquid canvas {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    bottom: -50px;
+    left: -50px;
 
-.btn-liquid canvas {
-  position: absolute;
-  top: -50px;
-  right: -50px;
-  bottom: -50px;
-  left: -50px;
+    z-index: 1;
+  }
 
-  z-index: 1;
-}
-
-/* FIN CARD-CASCADA */
+  /* FIN CARD-CASCADA */
 }
 
 @media (min-width: 668px) and (max-width: 992px) {
@@ -3294,7 +3310,7 @@
 }
 
 @media (min-width: 668px) and (max-width: 920px) {
-  .contenedor-card-cascada{
+  .contenedor-card-cascada {
     display: none;
   }
 
@@ -3362,7 +3378,7 @@
 }
 
 @media (min-width: 921px) and (max-width: 1279px) {
-  .contenedor-card-cascada{
+  .contenedor-card-cascada {
     display: none;
   }
 
@@ -4760,6 +4776,14 @@ textarea:focus {
     width: 100%;
     height: 800px;
     margin-top: 130px !important;
+  }
+  .waveWrapperInner-top-2 {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 932px !important;
+    bottom: 750px;
+    background-size: auto;
   }
   .seccion-contenedor-formulario {
     width: 50%;
