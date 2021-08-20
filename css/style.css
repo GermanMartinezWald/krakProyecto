@@ -3038,8 +3038,24 @@
 /* FIN MENU */
 
 /* INICIO SECCION RENDER Y PARRAFOS  */
+/* Pegalo aca y las clases van adentro de la media de 320 a 667 */
+@media (min-width: 320px) and (max-width: 667px) {
+  .seccion-desktop-icons{
+    display: none;
+  }
 
-@media (min-width: 320px) and (max-width: 992px) {
+  .subtitulo-principal {
+    font-family: gilroy-bold;
+    font-size: 25px;
+    background: linear-gradient(to right, #7c1dc9, #e91e63, #fc6b5f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+  }
+
+}
+
+@media (min-width: 668px) and (max-width: 992px){
+
   .subtitulo-principal {
     font-family: gilroy-bold;
     font-size: 25px;
@@ -3069,6 +3085,7 @@
 
 @media (min-width: 992px) {
   .subtitulo-principal {
+    line-height: 50px;
     font-family: gilroy-bold;
     font-size: 48px;
     background: linear-gradient(to right, #7c1dc9, #e91e63, #fc6b5f);
@@ -3319,7 +3336,7 @@
     }
   
     .parrafo-planes {
-      font-size: 24px;
+      font-size: 22px;
       text-align: center;
       color: #4a148c;
     }
@@ -3362,7 +3379,7 @@
     }
   
     .margen-boton {
-      margin-top: 88px !important;
+      margin-top: 80px !important;
     }
   }
   /* FIN SECCION PLANES PERSONALIZADOS */
