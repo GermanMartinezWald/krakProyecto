@@ -3690,6 +3690,7 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
+  overflow: hidden !important;
 }
 .wrapper {
   width: 100%;
@@ -4014,6 +4015,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 100px;
+  overflow: hidden !important;
 }
 .wrapper {
   width: 100%;
