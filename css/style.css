@@ -3570,6 +3570,7 @@
     margin-left: 30px !important;
     line-height: 35px;
     font-family: gilroy-black;
+    text-align: center;
   }
 
   .parrafo-agenda {
@@ -3685,9 +3686,10 @@
 
   .parrafo-agenda {
     color: #fff;
-    font-size: 18px;
+    font-size: 24px;
     margin-left: 30px !important;
     font-family: gilroy-medium;
+    margin-bottom: 30%;
   }
 
   .parrafo-mobile-agenda {
