@@ -3595,7 +3595,7 @@
   .h3-agenda {
     text-align: center;
     color: #fff;
-    font-size: 20px;
+    font-size: 22px;
     font-family: gilroy-semibold;
     margin-top: 45px !important;
   }
@@ -3603,7 +3603,7 @@
   .item-agenda {
     justify-content: center !important;
     color: #fff;
-    font-size: 16px;
+    font-size: 22px;
     margin-top: 30px;
     list-style-image: url(../img/icons/right-arrow.png);
     font-family: gilroy-medium;
@@ -3676,10 +3676,10 @@
 
   .subtitulo-agenda {
     color: #fff;
-    font-size: 48px;
-    margin-top: 10px !important;
+    font-size: 60px;
+    margin-top: 60px !important;
     margin-left: 30px !important;
-    line-height: 40px;
+    line-height: 55px;
     font-family: gilroy-black;
   }
 
@@ -3697,6 +3697,7 @@
   .boton-agenda {
     margin-top: 40px !important;
     font-size: 22px;
+    margin-bottom: 70px !important;
   }
 
   .boton-mobile-agenda {
