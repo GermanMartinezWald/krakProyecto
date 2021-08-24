@@ -3116,6 +3116,9 @@
     font-size: 30px;
     padding: 0px 0px 0px 0px;
   }
+  .titulo-ind-1 {
+    margin-top: 20px;
+  }
   .icono-card {
     width: 55px;
     position: relative;
@@ -3132,14 +3135,14 @@
     width: 55px;
     position: relative;
     margin: auto;
-    margin-top: 65px;
+    margin-top: 45px;
   }
   .accordion-body {
     font-family: "gilroy-regular";
     width: 100%;
     padding: 10px;
-    margin-top: 20px;
-    font-size: 12px;
+    /* margin-top: 20px; */
+    font-size: 14px;
     text-align: center;
   }
   /* #$%% */
@@ -3255,7 +3258,7 @@
     font-family: gilroy-bold;
     font-size: 36px;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 0px;
     margin-bottom: 70px;
   }
 
@@ -3780,11 +3783,15 @@
   }
   .carousel-informacion {
     min-height: 100vh;
+    height: 450px !important;
     display: flex;
-    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
   }
   .carousel {
     max-width: 1200px;
+    height: 450px;
     margin: 0px !important;
     padding: 0 0px !important;
   }
@@ -3818,14 +3825,14 @@
     height: 450px !important;
     border-radius: 20px !important;
     opacity: 90% !important;
-    margin-top: 130px;
+    margin-top: 300px;
   }
   .titulo-card {
     width: 250px;
     height: 150px;
     font-family: "gilroy-semibold";
     position: fixed;
-    bottom: 240px;
+    bottom: 200px;
     text-align: start;
     z-index: 2;
     margin: 20px;
@@ -4149,6 +4156,7 @@
   }
   .carousel-empresas {
     max-width: 1200px;
+    height: 350px;
     margin: 0px !important;
     padding: 0 0px !important;
   }
@@ -4158,6 +4166,9 @@
     margin: 0px 0px;
     display: flex !important;
     justify-content: center;
+  }
+  .card-emp {
+    height: 300px !important;
   }
   .carousel-empresas {
     display: flex;
@@ -4297,8 +4308,8 @@
   bottom: 0;
   top: 0;
   margin: auto;
-  /* background-image: url(../img/recursos-fondos/fondo-seccion-guia.png); */
-  background-image: url(../img/recursos-fondos/fondo-inicio.jpg);
+  background-image: url(../img/recursos-fondos/fondo-seccion-guia.png);
+  /* background-image: url(../img/recursos-fondos/fondo-inicio.jpg); */
   background-size: cover;
   width: 100%;
   height: 500px;
@@ -4441,7 +4452,7 @@
     top: 0;
     margin: auto;
     background-image: url(../img/recursos-fondos/Fondo-guia-mobile.png) !important;
-    background-size: auto;
+    background-size: cover;
     width: 100%;
     height: 450px;
     margin-top: 200px;
@@ -4657,6 +4668,7 @@
     font-size: 44px;
     justify-self: start;
     width: 100%;
+    /* margin-bottom: 50px; */
   }
   .texto-principal-empecemos {
     grid-area: texto;
@@ -4664,7 +4676,7 @@
     font-size: 18px;
     width: 90%;
     justify-self: start;
-    margin: 0px 30px;
+    margin: 30px 30px;
     text-align: center;
   }
   .buttons-2 {
@@ -5098,7 +5110,7 @@ footer {
 }
 .icono-footer {
   margin-left: 20px;
-  width: 200px;
+  width: 180px;
 }
 .contenedor-footer-iconos {
   width: 150px;
