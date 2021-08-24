@@ -100,12 +100,12 @@
   }
 
   .li-menu {
-    list-style-image: url(../img/icons/BeFunky-photo\\(9\).png);
+    list-style-image: url(../img/icons/itemlist.png);
     padding: 10px 15px 10px 15px;
   }
 
   .li-menu:hover {
-    list-style-image: url(../img/icons/BeFunky-photo\\(10\).png);
+    list-style-image: url(../img/icons/itemlist-hover.png);
     padding: 10px 15px 10px 15px;
   }
 }
