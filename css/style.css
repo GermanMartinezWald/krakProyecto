@@ -83,14 +83,14 @@
 /* FIN BOTTON CON HOVER*/
 
 /* MENU */
-@media (min-width: 320px) and (max-width: 919px){
-  .menu{
+@media (min-width: 320px) and (max-width: 919px) {
+  .menu {
     display: none;
   }
 }
 
-@media (min-width: 920px){
-  .menu{
+@media (min-width: 920px) {
+  .menu {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -98,15 +98,15 @@
     position: fixed;
     z-index: 100;
   }
-  
-  .li-menu{
-    list-style-image: url(../img/icons/BeFunky-photo\ \(9\).png);
-    padding: 10px 15px 10px 15px ;
+
+  .li-menu {
+    list-style-image: url(../img/icons/BeFunky-photo\\(9\).png);
+    padding: 10px 15px 10px 15px;
   }
-  
-  .li-menu:hover{
-    list-style-image: url(../img/icons/BeFunky-photo\ \(10\).png);
-    padding: 10px 15px 10px 15px ;
+
+  .li-menu:hover {
+    list-style-image: url(../img/icons/BeFunky-photo\\(10\).png);
+    padding: 10px 15px 10px 15px;
   }
 }
 
@@ -3146,6 +3146,9 @@
     font-size: 30px;
     padding: 0px 0px 0px 0px;
   }
+  .titulo-ind-1 {
+    margin-top: 20px;
+  }
   .icono-card {
     width: 55px;
     position: relative;
@@ -3162,14 +3165,14 @@
     width: 55px;
     position: relative;
     margin: auto;
-    margin-top: 65px;
+    margin-top: 45px;
   }
   .accordion-body {
     font-family: "gilroy-regular";
     width: 100%;
     padding: 10px;
-    margin-top: 20px;
-    font-size: 12px;
+    /* margin-top: 20px; */
+    font-size: 14px;
     text-align: center;
   }
   /* #$%% */
@@ -3285,7 +3288,7 @@
     font-family: gilroy-bold;
     font-size: 36px;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 0px;
     margin-bottom: 70px;
   }
 
@@ -3798,7 +3801,7 @@
   text-align: center;
   width: 90%;
   bottom: -90px !important;
-  right: 20px !important;
+  right: 30px !important;
   text-shadow: 1px 1px black;
 }
 .fa-arrow-alt-circle-right {
@@ -3811,11 +3814,15 @@
   }
   .carousel-informacion {
     min-height: 100vh;
+    height: 450px !important;
     display: flex;
-    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
   }
   .carousel {
     max-width: 1200px;
+    height: 450px;
     margin: 0px !important;
     padding: 0 0px !important;
   }
@@ -3849,14 +3856,14 @@
     height: 450px !important;
     border-radius: 20px !important;
     opacity: 90% !important;
-    margin-top: 130px;
+    margin-top: 300px;
   }
   .titulo-card {
     width: 250px;
     height: 150px;
     font-family: "gilroy-semibold";
     position: fixed;
-    bottom: 240px;
+    bottom: 200px;
     text-align: start;
     z-index: 2;
     margin: 20px;
@@ -4180,6 +4187,7 @@
   }
   .carousel-empresas {
     max-width: 1200px;
+    height: 350px;
     margin: 0px !important;
     padding: 0 0px !important;
   }
@@ -4189,6 +4197,9 @@
     margin: 0px 0px;
     display: flex !important;
     justify-content: center;
+  }
+  .card-emp {
+    height: 300px !important;
   }
   .carousel-empresas {
     display: flex;
@@ -4395,7 +4406,7 @@
   position: relative;
   z-index: 6;
   color: white;
-  grid-template-columns: 65% 35%;
+  grid-template-columns: 60% 40%;
   grid-template-rows: 50% 50%;
   grid-template-areas:
     "titulo boton"
@@ -4409,15 +4420,16 @@
   grid-area: titulo;
   font-family: "gilroy-black";
   text-align: center;
-  font-size: 5vw;
+  /* font-size: 4vw; */
   justify-self: start;
-  width: 100%;
+  width: 550px;
+  margin-left: 35px;
 }
 .texto-principal-empecemos {
   grid-area: texto;
   font-family: "gilroy-medium";
   font-size: 24px;
-  width: 460px;
+  width: 550px;
   justify-self: start;
   margin: 20px 50px;
   text-align: justify;
@@ -4472,7 +4484,7 @@
     top: 0;
     margin: auto;
     background-image: url(../img/recursos-fondos/Fondo-guia-mobile.png) !important;
-    background-size: auto;
+    background-size: cover;
     width: 100%;
     height: 450px;
     margin-top: 200px;
@@ -4688,6 +4700,7 @@
     font-size: 44px;
     justify-self: start;
     width: 100%;
+    /* margin-bottom: 50px; */
   }
   .texto-principal-empecemos {
     grid-area: texto;
@@ -4695,7 +4708,7 @@
     font-size: 18px;
     width: 90%;
     justify-self: start;
-    margin: 0px 30px;
+    margin: 30px 30px;
     text-align: center;
   }
   .buttons-2 {
@@ -4896,7 +4909,7 @@ textarea:focus {
     justify-content: center;
     align-items: center;
     background-color: white;
-    margin: 35% auto;
+    margin: 150px auto;
     border-radius: 20px;
   }
 
@@ -5129,7 +5142,7 @@ footer {
 }
 .icono-footer {
   margin-left: 20px;
-  width: 200px;
+  width: 180px;
 }
 .contenedor-footer-iconos {
   width: 150px;
