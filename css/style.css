@@ -3556,7 +3556,7 @@
 /* INICIO SECCION AGENDA UNA LLAMADA */
 @media (min-width: 320px) and (max-width: 767px) {
   .seccion-agenda {
-    height: 680px;
+    height: 100%;
     background-color: #4a148c;
     border-radius: 20px;
     width: auto !important;
@@ -3568,7 +3568,7 @@
     font-size: 32px;
     margin-top: 10px !important;
     margin-left: 30px !important;
-    line-height: 40px;
+    line-height: 35px;
     font-family: gilroy-black;
   }
 
