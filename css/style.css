@@ -83,14 +83,14 @@
 /* FIN BOTTON CON HOVER*/
 
 /* MENU */
-@media (min-width: 320px) and (max-width: 919px){
-  .menu{
+@media (min-width: 320px) and (max-width: 919px) {
+  .menu {
     display: none;
   }
 }
 
-@media (min-width: 920px){
-  .menu{
+@media (min-width: 920px) {
+  .menu {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -98,15 +98,15 @@
     position: fixed;
     z-index: 100;
   }
-  
-  .li-menu{
-    list-style-image: url(../img/icons/BeFunky-photo\ \(9\).png);
-    padding: 10px 15px 10px 15px ;
+
+  .li-menu {
+    list-style-image: url(../img/icons/BeFunky-photo\\(9\).png);
+    padding: 10px 15px 10px 15px;
   }
-  
-  .li-menu:hover{
-    list-style-image: url(../img/icons/BeFunky-photo\ \(10\).png);
-    padding: 10px 15px 10px 15px ;
+
+  .li-menu:hover {
+    list-style-image: url(../img/icons/BeFunky-photo\\(10\).png);
+    padding: 10px 15px 10px 15px;
   }
 }
 
@@ -3801,7 +3801,7 @@
   text-align: center;
   width: 90%;
   bottom: -90px !important;
-  right: 20px !important;
+  right: 30px !important;
   text-shadow: 1px 1px black;
 }
 .fa-arrow-alt-circle-right {
@@ -4339,8 +4339,8 @@
   bottom: 0;
   top: 0;
   margin: auto;
-  background-image: url(../img/recursos-fondos/fondo-seccion-guia.png);
-  /* background-image: url(../img/recursos-fondos/fondo-inicio.jpg); */
+  /* background-image: url(../img/recursos-fondos/fondo-seccion-guia.png); */
+  background-image: url(../img/recursos-fondos/fondo-inicio.jpg);
   background-size: cover;
   width: 100%;
   height: 500px;
@@ -4406,7 +4406,7 @@
   position: relative;
   z-index: 6;
   color: white;
-  grid-template-columns: 65% 35%;
+  grid-template-columns: 60% 40%;
   grid-template-rows: 50% 50%;
   grid-template-areas:
     "titulo boton"
@@ -4420,15 +4420,16 @@
   grid-area: titulo;
   font-family: "gilroy-black";
   text-align: center;
-  font-size: 5vw;
+  /* font-size: 4vw; */
   justify-self: start;
-  width: 100%;
+  width: 550px;
+  margin-left: 35px;
 }
 .texto-principal-empecemos {
   grid-area: texto;
   font-family: "gilroy-medium";
   font-size: 24px;
-  width: 460px;
+  width: 550px;
   justify-self: start;
   margin: 20px 50px;
   text-align: justify;
@@ -4908,7 +4909,7 @@ textarea:focus {
     justify-content: center;
     align-items: center;
     background-color: white;
-    margin: 35% auto;
+    margin: 150px auto;
     border-radius: 20px;
   }
 
