@@ -4747,6 +4747,133 @@
     z-index: 3;
     align-self: center;
     justify-self: center;
+    width: 100%;
+  }
+  .color-3 {
+    background-image: white;
+    color: #700b7c;
+    width: 220px;
+    height: 50px !important;
+    font-size: 20px;
+  }
+}
+@media (min-width: 601px) and (max-width: 767px) {
+  @-webkit-keyframes move_wave {
+    0% {
+      transform: translateX(0) translateZ(0) scaleY(1);
+    }
+    50% {
+      transform: translateX(-25%) translateZ(0) scaleY(0.55);
+    }
+    100% {
+      transform: translateX(-50%) translateZ(0) scaleY(1);
+    }
+  }
+  @keyframes move_wave {
+    0% {
+      transform: translateX(0) translateZ(0) scaleY(1);
+    }
+    50% {
+      transform: translateX(-25%) translateZ(0) scaleY(0.55);
+    }
+    100% {
+      transform: translateX(-50%) translateZ(0) scaleY(1);
+    }
+  }
+
+  .waveWrapper-2 {
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background-image: url(../img/recursos-fondos/Fondo-guia-mobile.png) !important;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+  }
+  .waveWrapperInner-top {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 932px !important;
+    bottom: 400px;
+    background-size: auto;
+  }
+  .waveWrapperInner {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 932px !important;
+    bottom: -30px !important;
+    background-size: auto;
+    z-index: 6;
+  }
+  .bgTop {
+    z-index: 6;
+    opacity: 1;
+  }
+  .bgMiddle {
+    z-index: 6;
+    opacity: 1;
+  }
+
+  .wave {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+  }
+
+  .waveMiddle {
+    background-size: 50% 120px;
+  }
+  .waveAnimation .waveMiddle {
+    -webkit-animation: move_wave 10s linear infinite;
+    animation: move_wave 10s linear infinite;
+  }
+
+  /*  FIN HEADER CON EFECTO AGUA*/
+
+  /* .imagen-flotante-header {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  left: -210px;
+  top: 370px;
+  z-index: 1 !important;
+} */
+  .seccion-contenedor-empecemos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18% !important;
+    margin-bottom: 20% !important;
+  }
+
+  .titulo-principal-empecemos {
+    grid-area: titulo;
+    font-family: "gilroy-black";
+    width: 800px;
+    text-align: center;
+    font-size: 40px;
+    justify-self: start;
+    width: 100%;
+    margin: 0px;
+  }
+  .texto-principal-empecemos {
+    grid-area: texto;
+    font-family: "gilroy-medium";
+    font-size: 14px;
     width: 90%;
   }
   .color-3 {
