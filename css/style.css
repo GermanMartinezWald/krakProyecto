@@ -3262,6 +3262,7 @@
     border-radius: 20px;
     margin: 50px;
     width: 350px !important;
+    height: 340px;
   }
 
   .subtitulo-planes {
@@ -3279,10 +3280,13 @@
   }
 
   .parrafo-planes {
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     color: #4a148c;
-    font-family: gilroy-medium;
+    font-family: gilroy-semibold;
+    margin-left: 10%;
+    margin-right: 10%;
+
   }
 
   .boton-planes {
@@ -3323,7 +3327,7 @@
   }
 }
 
-@media (min-width: 668px) and (max-width: 920px) {
+@media (min-width: 668px) and (max-width: 999px) {
   .contenedor-card-cascada {
     display: none;
   }
@@ -3392,7 +3396,7 @@
   }
 }
 
-@media (min-width: 921px) and (max-width: 1279px) {
+@media (min-width: 1000px) and (max-width: 1279px) {
   .contenedor-card-cascada {
     display: none;
   }
@@ -3402,6 +3406,7 @@
     border-radius: 20px;
     margin: 15px;
     width: 30% !important;
+    height: 400px;
   }
 
   .subtitulo-planes {
@@ -3420,9 +3425,10 @@
   }
 
   .parrafo-planes {
-    font-size: 16px;
+    font-size: 17px;
     text-align: center;
     color: #4a148c;
+    font-family: gilroy-medium;
   }
 
   .boton-planes {
@@ -3492,6 +3498,7 @@
     font-size: 22px;
     text-align: center;
     color: #4a148c;
+    font-family: gilroy-medium;
   }
 
   .boton-planes {
@@ -5506,8 +5513,7 @@ textarea:focus {
 /* INICIO FOOTER */
 footer {
   background-color: #4a148c;
-  height: 200px;
-  display: flex;
+  display: flex !important;
   justify-content: space-between;
   align-items: center;
 }
@@ -5536,14 +5542,14 @@ footer {
 @media (min-width: 320px) and (max-width: 767px) {
   footer {
     background-color: #4a148c;
-    height: 250px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   .icono-footer {
-    width: 200px;
+    width: 150px;
     margin: 0;
   }
   .contenedor-footer-iconos {
