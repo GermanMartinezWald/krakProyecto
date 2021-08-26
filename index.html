@@ -21,34 +21,44 @@
 </head>
 
 <body>
-  <!-- <div class="menu">
-    <ul>
-      <a href="#seccion1">
-        <li class="li-menu" style="margin-top: 130px;"></li>
-      </a>
-      <a href="#seccion2">
-        <li class="li-menu"></li>
-      </a>
-      <a href="#seccion3">
-        <li class="li-menu"></li>
-      </a>
-      <a href="#seccion4">
-        <li class="li-menu"></li>
-      </a>
-      <a href="#seccion5">
-        <li class="li-menu"></li>
-      </a>
-      <a href="#seccion6">
-        <li class="li-menu"></li>
-      </a>
-      <a href="#seccion7">
-        <li class="li-menu"></li>
-      </a>
-      <a href="#seccion8">
-        <li class="li-menu"></li>
-      </a>
-    </ul>
-  </div> -->
+    <!-- Navbar  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="./BeFunky-photo (11).png" alt=""></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   <!-- INICIO NAVBAR -->
   <!-- fondo -->
   <header class="waveWrapper waveAnimation" id="seccion1">
@@ -724,6 +734,17 @@
         divC.style.visibility = "visible"; // hide
       }
     }
+  </script>
+  <script type="text/javascript">
+    var nav = document.querySelector('nav');
+
+    window.addEventListener('scroll', function () {
+      if (window.pageYOffset > 10) {
+        nav.classList.add('bg-dark', 'shadow');
+      } else {
+        nav.classList.remove('bg-dark', 'shadow');
+      }
+    });
   </script>
 </body>
 
