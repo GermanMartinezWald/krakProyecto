@@ -3196,7 +3196,7 @@
   }
   .centrado-seccion {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
   }
 
@@ -3209,8 +3209,13 @@
     text-align: center;
   }
   .ancho-parrafo {
-    font-size: 18px;
+    font-size: 16px;
     font-family: gilroy-regular;
+    text-align: left;
+  }
+
+  .img-icon{
+    width: 300px;
   }
 }
 
@@ -3235,6 +3240,7 @@
     font-size: 60px;
     font-family: gilroy-black;
     line-height: 55px;
+    margin-bottom: 5%;
   }
   .texto-renders {
     text-align: left;
@@ -3244,6 +3250,7 @@
     font-size: 18px;
     font-family: gilroy-regular;
   }
+
 }
 /* FIN SECCION RENDER Y PARRAFOS */
 
