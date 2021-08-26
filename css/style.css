@@ -3075,7 +3075,7 @@
   }
   .accordion-header {
     width: 300px !important;
-    height: 335px !important;
+    height: 340px !important;
     box-shadow: none !important;
   }
   .accordion-button {
@@ -3114,7 +3114,7 @@
   }
   .titulo-card-2 {
     width: 90%;
-    font-family: "gilroy-bold";
+    font-family: "gilroy-black";
     text-align: center;
     color: #4a148c !important;
     font-size: 30px;
@@ -3259,7 +3259,7 @@
 
   .subtitulo-planes {
     color: #4a148c;
-    font-family: gilroy-bold;
+    font-family: gilroy-black;
     font-size: 36px;
     text-align: center;
     margin-top: 0px;
@@ -3330,7 +3330,7 @@
 
   .subtitulo-planes {
     color: #4a148c;
-    font-family: gilroy-bold;
+    font-family: gilroy-black;
     font-size: 60px;
     text-align: center;
     margin-bottom: 100px;
@@ -3399,7 +3399,7 @@
 
   .subtitulo-planes {
     color: #4a148c;
-    font-family: gilroy-bold;
+    font-family: gilroy-black;
     font-size: 72px;
     margin-left: 20px;
     margin-top: 50px;
@@ -3469,7 +3469,7 @@
 
   .subtitulo-planes {
     color: #4a148c;
-    font-family: gilroy-bold;
+    font-family: gilroy-black;
     font-size: 60px;
     margin-left: 20px;
     margin-bottom: 85px;
@@ -4225,7 +4225,7 @@
 .subtitulo-carousel-empresas {
   text-align: center;
   color: #4a148c;
-  font-family: gilroy-bold;
+  font-family: gilroy-black;
   font-size: 60px;
   margin-left: 0px;
   margin-bottom: 50px;
@@ -4266,7 +4266,7 @@
   .subtitulo-carousel-empresas {
     text-align: center;
     color: #4a148c;
-    font-family: gilroy-bold;
+    font-family: gilroy-black;
     font-size: 36px;
     margin-left: 0px;
     margin-bottom: 30px;
@@ -4326,7 +4326,7 @@
   .subtitulo-carousel-empresas {
     text-align: center;
     color: #4a148c;
-    font-family: gilroy-bold;
+    font-family: gilroy-black;
     font-size: 60px;
     margin-left: 0px;
     margin-bottom: 30px;
@@ -4410,7 +4410,7 @@
   .subtitulo-carousel-empresas {
     text-align: center;
     color: #4a148c;
-    font-family: gilroy-bold;
+    font-family: gilroy-black;
     font-size: 60px;
     margin-left: 20px;
     margin-bottom: 30px;
@@ -5040,7 +5040,91 @@
     font-size: 30px;
   }
 }
-@media (min-width: 1400px) and (max-width: 2000px) {
+@media (min-width: 1400px) and (max-width: 2500px) {
+  @-webkit-keyframes move_wave {
+    0% {
+      transform: translateX(0) translateZ(0) scaleY(1);
+    }
+    50% {
+      transform: translateX(-25%) translateZ(0) scaleY(0.55);
+    }
+    100% {
+      transform: translateX(-50%) translateZ(0) scaleY(1);
+    }
+  }
+  @keyframes move_wave {
+    0% {
+      transform: translateX(0) translateZ(0) scaleY(1);
+    }
+    50% {
+      transform: translateX(-25%) translateZ(0) scaleY(0.55);
+    }
+    100% {
+      transform: translateX(-50%) translateZ(0) scaleY(1);
+    }
+  }
+
+  .waveWrapper-2 {
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    /* background-image: url(../img/recursos-fondos/fondo-seccion-guia.png); */
+    background-image: url(../img/recursos-fondos/fondo-seccion-guia.png);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .waveWrapperInner-top {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 932px !important;
+    bottom: 450px;
+    background-size: auto;
+  }
+  .waveWrapperInner {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 932px !important;
+    bottom: 0px;
+    background-size: auto;
+  }
+  .bgTop {
+    z-index: 6;
+    opacity: 1;
+  }
+  .bgMiddle {
+    z-index: 6;
+    opacity: 1;
+  }
+
+  .wave {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+  }
+
+  .waveMiddle {
+    background-size: 50% 120px;
+  }
+  .waveAnimation .waveMiddle {
+    -webkit-animation: move_wave 10s linear infinite;
+    animation: move_wave 10s linear infinite;
+  }
+
+  /*  FIN HEADER CON EFECTO AGUA*/
+  /* SECCION EMPECEMOS */
   .seccion-contenedor-empecemos {
     width: 100%;
     display: grid;
@@ -5064,8 +5148,8 @@
     text-align: center;
     /* font-size: 4vw; */
     justify-self: start;
-    width: 650px;
-    margin-left: -50px;
+    width: 850px;
+    margin-left: 35px;
   }
   .texto-principal-empecemos {
     grid-area: texto;
@@ -5161,7 +5245,7 @@
   justify-content: center;
   align-items: center;
   background-color: white;
-  margin: 10% auto;
+  margin: 8% auto;
   border-radius: 20px;
 }
 
@@ -5171,7 +5255,7 @@
   text-align: center;
   font-size: 36px;
   justify-self: start;
-  width: 100%;
+  width: 95%;
   color: #e91e63;
 }
 .formulario-campo {
@@ -5207,6 +5291,7 @@
 
 .formulario-contacto-check-radio {
   display: flex;
+  margin-top: 30px !important;
 }
 input:focus {
   outline: none !important;
@@ -5236,9 +5321,10 @@ textarea:focus {
   color: #4a148c !important;
 }
 .boton-form {
-  width: 290px !important;
-  height: 50px !important;
-  font-size: 28px;
+  width: 270px !important;
+  height: 70px !important;
+  font-size: 30px;
+  margin-top: 60px;
 }
 /* MEDIAQUERIES FORMULARIO CELULAR */
 @media (min-width: 320px) and (max-width: 767px) {
