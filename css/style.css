@@ -3828,7 +3828,6 @@
   .carousel {
     display: flex;
     max-width: 1200px;
-    /* margin: 0 1%; */
   }
   .carousel .card {
     width: 290px !important;
@@ -4948,14 +4947,6 @@
 
   /*  FIN HEADER CON EFECTO AGUA*/
 
-  /* .imagen-flotante-header {
-  position: absolute;
-  width: 700px;
-  height: 700px;
-  left: -210px;
-  top: 370px;
-  z-index: 1 !important;
-} */
   .seccion-contenedor-empecemos {
     width: 100%;
     display: flex;
@@ -5001,6 +4992,7 @@
     font-size: 24px;
   }
 }
+
 @media (min-width: 991px) and (max-width: 1249px) {
   .seccion-contenedor-empecemos {
     width: 100%;
