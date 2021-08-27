@@ -93,6 +93,10 @@
   color: #fff !important;
   font-size: 20px;
 }
+
+.bg-dark-background{
+  background: #000E4F !important;
+}
 /* FIN MENU */
 
 @media (min-width: 320px) and (max-width: 992px) {
