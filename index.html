@@ -21,10 +21,10 @@
 </head>
 
 <body>
-  <!-- Navbar  -->
+  <!-- Menu de navegacion  -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="./BeFunky-photo (11).png" alt=""></a>
+      <a class="navbar-brand" href="#"><img src="./img/recursos-fondos/logo-menu-horizontal.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -34,24 +34,26 @@
         <div class="mx-auto"></div>
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Home</a>
+            <a class="nav-link texto-menu" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">About</a>
+            <a class="nav-link texto-menu" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Blog</a>
+            <a class="nav-link texto-menu" href="#">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Pricing</a>
+            <a class="nav-link texto-menu" href="#">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Contact</a>
+            <a class="nav-link texto-menu" href="#">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+  <!-- Fin menu de navegacion -->
+
   <!-- INICIO NAVBAR -->
   <!-- fondo -->
   <header class="waveWrapper waveAnimation" id="seccion1">
@@ -217,10 +219,10 @@
     especializado en
     escalar las consultas de tu emprendimiento inmobiliario.</h2>
 
-  <div class="container mt-5 seccion-desktop-icons">
+  <div class="container mt-5 mb-5 seccion-desktop-icons">
     <div class="row centrado-seccion">
       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 centrado-seccion">
-        <img src="./img/icons/edificios.png" alt="" data-aos="fade-right">
+        <img src="./img/icons/edificios-1.png" alt="" data-aos="fade-right" class="img-icon">
       </div>
       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" data-aos="fade-left">
         <h2 class="subtitulo-1 texto-renders">Creamos tu Marca</h2>
@@ -238,10 +240,10 @@
     </div>
   </div>
 
-  <div class="container mt-5 seccion-desktop-icons">
+  <div class="container mt-5 mb-5 seccion-desktop-icons">
     <div class="row flex-md-row-reverse centrado-seccion">
       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 centrado-seccion">
-        <img src="./img/icons/pantalla.png" alt="" data-aos="fade-left">
+        <img src="./img/icons/set-2.png" alt="" data-aos="fade-left" class="img-icon">
       </div>
       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" data-aos="fade-right">
         <h2 class="subtitulo-1 texto-renders">Ejecutamos las estrategias de comunicación
@@ -259,7 +261,7 @@
   <div class="container mt-5 seccion-desktop-icons">
     <div class="row centrado-seccion">
       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 centrado-seccion">
-        <img src="./img/icons/megafono.png" alt="" data-aos="fade-right">
+        <img src="./img/icons/megafono-3.png" alt="" data-aos="fade-right" class="img-icon">
       </div>
       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" data-aos="fade-left">
         <h2 class="subtitulo-1 texto-renders">Escalamos tus consultas
@@ -285,7 +287,7 @@
             data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne"
             id="btnA" onclick="funA()">
             <div class="contenedor-info-titulo-card">
-              <img class="imagen-card" src="./img//icons/icono-1.png" alt="">
+              <img class="imagen-card" src="./img//icons/icono-3.png" alt="">
               <h3 class="titulo-card-2 titulo-ind-1">Creamos tu marca
               </h3>
               <div id="conA" style="display: block">
@@ -318,7 +320,7 @@
             data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo"
             id="btnB" onclick="funB()">
             <div class="contenedor-info-titulo-card">
-              <img class="imagen-card" src="./img//icons/icono-2.png" alt="">
+              <img class="imagen-card" src="./img//icons/icono-1.png" alt="">
               <h3 class="titulo-card-2">
                 Ejecutamos las estrategias de comunicación
               </h3>
@@ -728,17 +730,20 @@
       }
     }
   </script>
+
+  <!-- Menu de navegacion -->
   <script type="text/javascript">
     var nav = document.querySelector('nav');
 
     window.addEventListener('scroll', function () {
-      if (window.pageYOffset > 10) {
+      if (window.pageYOffset > 500) {
         nav.classList.add('bg-dark', 'shadow');
       } else {
         nav.classList.remove('bg-dark', 'shadow');
       }
     });
   </script>
+  <!-- Fin menu de navegacion -->
 </body>
 
 </html>
