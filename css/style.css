@@ -99,7 +99,7 @@
 #display {
   display: none;
 }
-@media (min-width: 320px) and (max-width: 992px) {
+@media (min-width: 320px) and (max-width: 991px) {
   #nav {
     display: none;
   }
@@ -107,7 +107,7 @@
     display: none;
   }
   .menu-mobile {
-    background-color: #4a148c;
+    background-color: #59188c;
   }
 }
 /* FIN MENU */
@@ -533,15 +533,30 @@
   height: 200px;
 }
 @media (min-width: 992px) and (max-width: 1100px) {
+  .waveWrapper {
+    display: inline-block;
+    overflow: hidden;
+    position: relative !important;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background-image: url(../img/recursos-fondos/fondo-inicio.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 560px;
+    z-index: 0;
+  }
   .waveWrapper2 {
     display: none;
   }
   .imagen-flotante-header {
     position: absolute;
-    width: 500px;
+    width: 450px;
     height: auto;
     left: -18%;
-    top: 55%;
+    top: 40%;
     z-index: 2 !important;
     -webkit-animation-name: bounced;
     animation-name: bounced;
@@ -698,7 +713,7 @@
     z-index: 1;
     width: 10%;
     left: 5%;
-    top: 45%;
+    top: 38%;
     -webkit-animation-name: f-l;
     animation-name: f-l;
     -webkit-animation-duration: 5s;
@@ -780,20 +795,25 @@
     position: relative;
     z-index: 6;
     color: white;
-    margin: 5% 0%;
+    margin: 12% 0%;
   }
 
   .titulo-principal-header {
     font-family: "gilroy-black";
-    width: 900px;
+    width: 800px;
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
     margin-bottom: 40px;
   }
   .subtitulo-principal-header {
     font-family: "gilroy-medium";
     font-size: 24px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+  }
+  .color-2 {
+    width: 220px;
+    height: 60px !important;
+    font-size: 30px;
   }
   .section-2 {
     height: 600px;
@@ -819,6 +839,21 @@
 }
 
 @media (min-width: 1500px) {
+  .waveWrapper {
+    display: inline-block;
+    overflow: hidden;
+    position: relative !important;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background-image: url(../img/recursos-fondos/fondo-inicio.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    z-index: 0;
+  }
   .waveWrapper2 {
     display: none;
   }
@@ -827,7 +862,7 @@
     width: 700px;
     height: auto;
     left: -18%;
-    top: 40%;
+    top: 33%;
     z-index: 2 !important;
     -webkit-animation-name: bounced;
     animation-name: bounced;
@@ -1023,7 +1058,7 @@
     z-index: 1;
     width: 10%;
     right: 15%;
-    top: 15%;
+    top: 12%;
     -webkit-animation-name: f-r;
     animation-name: f-r;
     -webkit-animation-duration: 9s;
@@ -1066,7 +1101,7 @@
     position: relative;
     z-index: 6;
     color: white;
-    margin: 5% 0%;
+    margin: 11% 0%;
   }
 
   .titulo-principal-header {
@@ -1079,7 +1114,7 @@
   .subtitulo-principal-header {
     font-family: "gilroy-medium";
     font-size: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
   }
   .section-2 {
     height: 600px;
@@ -1105,6 +1140,21 @@
 }
 
 @media (min-width: 2000px) {
+  .waveWrapper {
+    display: inline-block;
+    overflow: hidden;
+    position: relative !important;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background-image: url(../img/recursos-fondos/fondo-inicio.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    z-index: 0;
+  }
   .waveWrapper2 {
     display: none;
   }
@@ -1143,7 +1193,7 @@
     background-image: url(../img/recursos-fondos/fondo-inicio.jpg);
     background-size: cover;
     width: 100%;
-    height: 932px;
+    height: 832px;
     z-index: 0;
   }
   .waveWrapperInner {
@@ -1185,7 +1235,7 @@
     width: 800px;
     height: auto;
     left: -13%;
-    top: 38%;
+    top: 32%;
     z-index: 2 !important;
     -webkit-animation-name: bounced;
     animation-name: bounced;
@@ -1424,7 +1474,7 @@
     position: relative;
     z-index: 6;
     color: white;
-    margin: 2% 0%;
+    margin: 10% 0%;
   }
 
   .titulo-principal-header {
@@ -1437,7 +1487,7 @@
   .subtitulo-principal-header {
     font-family: "gilroy-medium";
     font-size: 34px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
   }
   .section-2 {
     height: 600px;
@@ -3755,7 +3805,7 @@
   /* max-width: 1200px; */
   margin: 5%;
   padding: 0 0px;
-  margin: 0px 2%;
+  margin: 0px 0.5%;
 }
 .carousel .card {
   width: 300px !important;
@@ -4580,7 +4630,7 @@
   z-index: 6;
   color: white;
   grid-template-columns: 70% 30%;
-  grid-template-rows: 50% 50%;
+  grid-template-rows: 60% 40%;
   grid-template-areas:
     "titulo boton"
     "texto boton";
@@ -4598,6 +4648,7 @@
   justify-self: start;
   width: 850px;
   margin-left: 35px;
+  margin-bottom: 30px;
 }
 .texto-principal-empecemos {
   grid-area: texto;
@@ -4605,7 +4656,7 @@
   font-size: 24px;
   width: 550px;
   justify-self: start;
-  margin: 30px 50px;
+  margin: 50px 50px;
   text-align: justify;
 }
 .buttons-2 {
@@ -5277,7 +5328,7 @@
 }
 .seccion-contenedor-formulario {
   /* width: 50%; */
-  height: 700px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -5362,7 +5413,7 @@ textarea:focus {
   width: 270px !important;
   height: 70px !important;
   font-size: 30px;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 /* MEDIAQUERIES FORMULARIO CELULAR */
 @media (min-width: 320px) and (max-width: 767px) {
