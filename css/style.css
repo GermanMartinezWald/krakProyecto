@@ -87,6 +87,19 @@
 /* FIN MENU DE NAVEGACION */
 
 /* MENU */
+.contactanos-item{
+  font-family: gilroy-medium;
+  color: #fff !important;
+  font-size: 20px;
+  background-color: #D51E6A;
+  border-radius: 5px;
+}
+
+.contactanos-item:hover{
+  background-color: #fff;
+  color: #D51E6A !important;
+}
+
 .texto-menu {
   font-family: gilroy-medium;
   color: #fff !important;
@@ -104,7 +117,12 @@
 #display {
   display: none;
 }
+<<<<<<< HEAD
 @media (min-width: 320px) and (max-width: 767px) {
+=======
+
+@media (min-width: 320px) and (max-width: 991px) {
+>>>>>>> f31f58cfc6407cd4eff80bd434fd6acdfddb902e
   #nav {
     display: none;
   }
