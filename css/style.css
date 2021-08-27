@@ -86,23 +86,22 @@
 
 /* FIN MENU DE NAVEGACION */
 
-
 /* MENU */
-.texto-menu{
+.texto-menu {
   font-family: gilroy-medium;
   color: #fff !important;
   font-size: 20px;
 }
 
-.bg-dark-background{
-  background: #000E4F !important;
+.bg-dark-background {
+  background: #000e4f !important;
 }
 /* FIN MENU */
 
 @media (min-width: 320px) and (max-width: 992px) {
   /* INICIO NAVBAR */
   .bg-menu {
-    background-color: #4a148c;
+    background-color: #4a148c !important;
   }
 
   .navbar-toggler:focus,
@@ -3227,7 +3226,7 @@
     text-align: left;
   }
 
-  .img-icon{
+  .img-icon {
     width: 300px;
   }
 }
@@ -3263,7 +3262,6 @@
     font-size: 18px;
     font-family: gilroy-regular;
   }
-
 }
 /* FIN SECCION RENDER Y PARRAFOS */
 
@@ -3299,7 +3297,6 @@
     font-family: gilroy-semibold;
     margin-left: 10%;
     margin-right: 10%;
-
   }
 
   .boton-planes {
@@ -5669,4 +5666,3 @@ footer {
   }
 }
 /* FIN FOOTER */
-
