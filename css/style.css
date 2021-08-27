@@ -92,8 +92,7 @@
   color: #fff !important;
   font-size: 20px;
 }
-.menu-desktop {
-}
+
 .logo-navbar {
   width: 166px;
   height: 73px;
@@ -105,7 +104,7 @@
 #display {
   display: none;
 }
-@media (min-width: 320px) and (max-width: 991px) {
+@media (min-width: 320px) and (max-width: 767px) {
   #nav {
     display: none;
   }
@@ -218,7 +217,7 @@
   background-image: url(../img/recursos-fondos/fondo-inicio.jpg);
   background-size: cover;
   width: 100%;
-  height: 932px;
+  height: 652px;
   z-index: 0;
 }
 .waveWrapperInner {
@@ -260,9 +259,9 @@
 
 .imagen-flotante-header {
   position: absolute;
-  width: 600px;
+  width: 500px;
   height: auto;
-  left: -20%;
+  left: -15%;
   top: 50%;
   z-index: 2 !important;
   -webkit-animation-name: bounced;
@@ -301,9 +300,9 @@
 .circulo-uno {
   position: absolute;
   z-index: 1;
-  width: 30%;
+  width: 25%;
   right: -5%;
-  bottom: 55%;
+  bottom: 35%;
   -webkit-animation-name: float-bob-y;
   animation-name: float-bob-y;
   -webkit-animation-duration: 10s;
@@ -339,7 +338,7 @@
 .circulo-linea {
   position: absolute;
   z-index: 1;
-  width: 50%;
+  width: 35%;
   right: -5%;
   bottom: 3%;
   -webkit-animation-name: circ-lin;
@@ -378,7 +377,7 @@
 .circulo-2 {
   position: absolute;
   z-index: 1;
-  width: 40%;
+  width: 30%;
   left: -5%;
   bottom: -0%;
   -webkit-animation-name: circ-2;
@@ -419,8 +418,8 @@
   position: absolute;
   z-index: 1;
   width: 10%;
-  left: 10%;
-  top: 25%;
+  left: 5%;
+  top: 40%;
   -webkit-animation-name: f-l;
   animation-name: f-l;
   -webkit-animation-duration: 5s;
@@ -458,8 +457,8 @@
   position: absolute;
   z-index: 1;
   width: 10%;
-  right: 15%;
-  top: 15%;
+  right: 5%;
+  top: 65%;
   -webkit-animation-name: f-r;
   animation-name: f-r;
   -webkit-animation-duration: 9s;
@@ -502,7 +501,7 @@
   position: relative;
   z-index: 6;
   color: white;
-  margin: 23% 0%;
+  margin: 10% 0%;
 }
 
 .titulo-principal-header {
@@ -515,7 +514,7 @@
 .subtitulo-principal-header {
   font-family: "gilroy-medium";
   font-size: 24px;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 .section-2 {
   height: 600px;
@@ -802,7 +801,7 @@
     position: relative;
     z-index: 6;
     color: white;
-    margin: 14% 0%;
+    margin: 12% 0%;
   }
 
   .titulo-principal-header {
@@ -858,7 +857,7 @@
     background-image: url(../img/recursos-fondos/fondo-inicio.jpg);
     background-size: cover;
     width: 100%;
-    height: 800px;
+    height: 650px;
     z-index: 0;
   }
   .waveWrapper2 {
@@ -1108,7 +1107,7 @@
     position: relative;
     z-index: 6;
     color: white;
-    margin: 11% 0%;
+    margin: 7% 0%;
   }
 
   .titulo-principal-header {
@@ -1121,7 +1120,7 @@
   .subtitulo-principal-header {
     font-family: "gilroy-medium";
     font-size: 30px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
   }
   .section-2 {
     height: 600px;
@@ -1159,7 +1158,7 @@
     background-image: url(../img/recursos-fondos/fondo-inicio.jpg);
     background-size: cover;
     width: 100%;
-    height: 800px;
+    height: 652px;
     z-index: 0;
   }
   .waveWrapper2 {
@@ -1494,7 +1493,7 @@
   .subtitulo-principal-header {
     font-family: "gilroy-medium";
     font-size: 34px;
-    margin-bottom: 70px;
+    margin-bottom: 45px;
   }
   .section-2 {
     height: 600px;
@@ -1557,7 +1556,7 @@
     background-image: url(../img/recursos-fondos/fondo-inicio.jpg);
     background-size: cover;
     width: 100%;
-    height: 560px;
+    height: 600px;
     z-index: 0;
   }
   .waveWrapperInner2 {
@@ -2724,7 +2723,7 @@
     background-image: url(../img/recursos-fondos/fondo-inicio.jpg);
     background-size: cover;
     width: 100%;
-    height: 700px;
+    height: 570px;
     z-index: 0;
   }
   .waveWrapperInner2 {
@@ -3015,7 +3014,7 @@
     position: relative;
     z-index: 6;
     color: white;
-    margin: 1% 0%;
+    margin: 15% 0%;
   }
 
   .titulo-principal-header2 {
@@ -3051,7 +3050,7 @@
   }
   .logo-nav2 {
     position: relative;
-    display: flex;
+    display: none;
     flex-direction: row;
     height: 200px;
   }
@@ -4389,6 +4388,7 @@
   .wrapper-2 {
     width: 100% !important;
     display: flex;
+    overflow: hidden;
   }
   .carousel .card {
     height: 150px !important;
@@ -4663,7 +4663,7 @@
     "texto boton";
   justify-content: center !important;
   align-items: center !important;
-  margin: 10% 0% !important;
+  margin: 6% 0% !important;
 }
 
 .titulo-principal-empecemos {
@@ -5308,15 +5308,15 @@
   background-image: url(../img/pictures/Formulario-final.jpg);
   background-size: cover;
   width: 100%;
-  height: 850px;
+  height: 600px;
   margin-top: 200px;
 }
 .waveWrapperInner-top-2 {
   position: absolute;
   width: 100%;
   overflow: hidden;
-  height: 932px !important;
-  bottom: 800px;
+  height: 700px !important;
+  bottom: 550px;
   background-size: auto;
 }
 .waveWrapperInner {
@@ -5355,13 +5355,13 @@
 }
 .seccion-contenedor-formulario {
   /* width: 50%; */
-  height: 650px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: white;
-  margin: 8% auto;
+  margin: 5% auto;
   border-radius: 20px;
 }
 
@@ -5373,6 +5373,7 @@
   justify-self: start;
   width: 95%;
   color: #e91e63;
+  margin-top: 30px;
 }
 .formulario-campo {
   background: #f5f5f5 !important;
@@ -5407,7 +5408,7 @@
 
 .formulario-contacto-check-radio {
   display: flex;
-  margin-top: 30px !important;
+  margin-top: 20px !important;
 }
 input:focus {
   outline: none !important;
@@ -5440,7 +5441,7 @@ textarea:focus {
   width: 270px !important;
   height: 70px !important;
   font-size: 30px;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 /* MEDIAQUERIES FORMULARIO CELULAR */
 @media (min-width: 320px) and (max-width: 767px) {

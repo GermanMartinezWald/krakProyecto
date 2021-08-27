@@ -486,7 +486,7 @@
 
   <!-- INICIO SECCION AGENDA UNA LLAMADA -->
   <div class="container-fluid seccion-agenda" id="seccion7">
-  
+
     <div class="row">
       <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
         <h2 class="subtitulo-agenda-mobile">¡Agenda una llamada <br>con nuestro equipo!</h2>
@@ -522,18 +522,18 @@
     <div class="seccion-contenedor-formulario col-11 col-md-6 col-lg-6">
       <h2 class="titulo-principal-formulario "> Si querés saber mas, escribimos y nos pondremos en contacto contigo.
       </h2>
-      <form class="row col-11 col-sm-10 col-md-10 col-lg-10">
-        <div class="mb-2">
+      <form class="row col-12 col-sm-10 col-md-10 col-lg-10">
+        <div class="mb-2 col-12">
           <label for="exampleFormControlInput1" class="form-label"></label>
           <input type="email" class="form-control formulario-campo" id="exampleFormControlInput1"
             placeholder="Nombre Completo">
         </div>
-        <div class="mb-2">
+        <div class="mb-2 col-6">
           <label for="exampleInputEmail1" class="form-label"></label>
           <input type="email" class="form-control formulario-campo" id="exampleInputEmail1" aria-describedby="emailHelp"
             placeholder="Email">
         </div>
-        <div class="mb-2">
+        <div class="mb-2 col-6">
           <label for="exampleFormControlInput1" class="form-label"></label>
           <input type="email" class="form-control formulario-campo" id="exampleFormControlInput1"
             placeholder="Teléfono">
@@ -555,7 +555,7 @@
         </div>
         <div class="mb-2">
           <label for="exampleFormControlTextarea1" class="form-label formulario-campo"></label>
-          <textarea class="form-control formulario-campo" id="exampleFormControlTextarea1" rows="3"
+          <textarea class="form-control formulario-campo" id="exampleFormControlTextarea1" rows="2"
             placeholder="Mensaje"></textarea>
         </div>
         <div class="buttons">
@@ -734,7 +734,7 @@
     var nav = document.querySelector('nav');
 
     window.addEventListener('scroll', function () {
-      if (window.pageYOffset > 500 && window.innerWidth <= 991) {
+      if (window.pageYOffset > 500 && window.innerWidth <= 767) {
         // nav.classList.add('bg-dark', 'shadow');
         document.getElementById("display").style.display = "inline"
 
@@ -747,7 +747,7 @@
     var nav = document.getElementById('nav');
 
     window.addEventListener('scroll', function () {
-      if (window.pageYOffset > 600) {
+      if (window.pageYOffset > 500) {
         // nav.classList.add('menu-desktop', 'shadow');
         document.getElementById("nav").style.backgroundColor = "#59188C"
 
