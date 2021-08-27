@@ -92,9 +92,13 @@
   color: #fff !important;
   font-size: 20px;
 }
-
-.bg-dark-background {
-  background: #000e4f !important;
+#display {
+  display: none;
+}
+@media (min-width: 320px) and (max-width: 992px) {
+  #display {
+    display: none;
+  }
 }
 /* FIN MENU */
 

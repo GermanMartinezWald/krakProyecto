@@ -22,7 +22,7 @@
 
 <body>
   <!-- Menu de navegacion  -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3 menu-mobile " id="display">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="./img/recursos-fondos/logo-menu-horizontal.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -736,10 +736,13 @@
     var nav = document.querySelector('nav');
 
     window.addEventListener('scroll', function () {
-      if (window.pageYOffset > 500) {
-        nav.classList.add('bg-dark-background', 'shadow');
+      if (window.pageYOffset > 500 && window.innerWidth <= 767) {
+        // nav.classList.add('bg-dark', 'shadow');
+        document.getElementById("display").style.display = "inline"
+
       } else {
-        nav.classList.remove('bg-dark-background', 'shadow');
+        // nav.classList.remove('bg-dark', 'shadow');
+        document.getElementById("display").style.display = "none"
       }
     });
   </script>
