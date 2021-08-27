@@ -4373,7 +4373,7 @@
   /* max-width: 1200px; */
   margin: 5%;
   padding: 0 0px;
-  margin: 0px 2%;
+  margin: 0px 1%;
 }
 .carousel-empresas .card {
   width: 300px !important;
@@ -4426,6 +4426,7 @@
   }
   .card-emp {
     height: 300px !important;
+    margin: 0% !important;
   }
   .carousel-empresas {
     display: flex;
