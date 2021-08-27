@@ -82,8 +82,17 @@
 
 /* FIN BOTTON CON HOVER*/
 
-/* MENU */
+/* MENU DE NAVEGACION */
 
+/* FIN MENU DE NAVEGACION */
+
+
+/* MENU */
+.texto-menu{
+  font-family: gilroy-medium;
+  color: #fff !important;
+  font-size: 20px;
+}
 /* FIN MENU */
 
 @media (min-width: 320px) and (max-width: 992px) {
@@ -5570,3 +5579,4 @@ footer {
   }
 }
 /* FIN FOOTER */
+
