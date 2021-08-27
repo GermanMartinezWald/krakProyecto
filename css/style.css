@@ -3634,9 +3634,13 @@
   }
 
   .subtitulo-agenda {
+    display: none;
+  }
+
+  .subtitulo-agenda-mobile{
     color: #fff;
     font-size: 32px;
-    margin-top: 10px !important;
+    margin-top: 35px !important;
     margin-left: 30px !important;
     line-height: 35px;
     font-family: gilroy-black;
@@ -3652,6 +3656,7 @@
     font-size: 18px;
     text-align: center;
     font-family: gilroy-medium;
+    margin-top: 25px;
   }
 
   .boton-agenda {
@@ -3666,19 +3671,26 @@
   .h3-agenda {
     text-align: center;
     color: #fff;
-    font-size: 22px;
+    font-size: 18px;
     font-family: gilroy-semibold;
-    margin-top: 45px !important;
+    margin-top: 20px !important;
   }
 
   .item-agenda {
     justify-content: center !important;
     color: #fff;
-    font-size: 22px;
-    margin-top: 30px;
+    font-size: 18px;
+    margin-top: 10px;
     list-style-image: url(../img/icons/right-arrow.png);
     font-family: gilroy-medium;
   }
+
+  .boton-mobile-agenda{
+    font-size: 18px;
+  }
+
+
+
 }
 
 @media (min-width: 767px) and (max-width: 1100px) {
@@ -3691,13 +3703,17 @@
     margin-top: 200px !important;
   }
 
+  .subtitulo-agenda-mobile{
+    display: none;
+  }
+
   .subtitulo-agenda {
     color: #fff;
     font-size: 40px;
     margin-top: 10px !important;
     margin-left: 30px !important;
-    line-height: 40px;
-    font-family: gilroy-black;
+    line-height: 38px;
+    font-family: gilroy-semibold;
   }
 
   .parrafo-agenda {
@@ -3724,6 +3740,7 @@
     color: #fff;
     font-size: 26px;
     font-family: gilroy-semibold;
+    margin-top: 10%;
   }
 
   .item-agenda {
@@ -3745,21 +3762,26 @@
     margin-top: 150px !important;
   }
 
+  .subtitulo-agenda-mobile{
+    display: none;
+  }
+
   .subtitulo-agenda {
     color: #fff;
     font-size: 60px;
-    margin-top: 60px !important;
+    margin-top: 40px !important;
     margin-left: 30px !important;
-    line-height: 55px;
-    font-family: gilroy-black;
+    margin-bottom: 5%;
+    line-height: 56px;
+    font-family: gilroy-bold;
   }
 
   .parrafo-agenda {
     color: #fff;
-    font-size: 24px;
+    font-size: 26px;
     margin-left: 30px !important;
-    font-family: gilroy-medium;
-    margin-bottom: 30%;
+    font-family: gilroy-regular;
+    line-height: 28px;
   }
 
   .parrafo-mobile-agenda {
@@ -3769,7 +3791,7 @@
   .boton-agenda {
     margin-top: 40px !important;
     font-size: 22px;
-    margin-bottom: 70px !important;
+    margin-bottom: 50px !important;
   }
 
   .boton-mobile-agenda {
@@ -3777,6 +3799,7 @@
   }
 
   .h3-agenda {
+    margin-top: 15%;
     color: #fff;
     font-size: 28px;
     font-family: gilroy-semibold;
@@ -3784,7 +3807,7 @@
 
   .item-agenda {
     color: #fff;
-    font-size: 25px;
+    font-size: 28px;
     margin-top: 30px;
     list-style-image: url(../img/icons/right-arrow.png);
     font-family: gilroy-medium;
