@@ -92,12 +92,22 @@
   color: #fff !important;
   font-size: 20px;
 }
+#nav {
+  background-color: transparent;
+}
+
 #display {
   display: none;
 }
 @media (min-width: 320px) and (max-width: 992px) {
+  #nav {
+    display: none;
+  }
   #display {
     display: none;
+  }
+  .menu-mobile {
+    background-color: #4a148c;
   }
 }
 /* FIN MENU */

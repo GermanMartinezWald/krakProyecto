@@ -21,7 +21,38 @@
 </head>
 
 <body>
-  <!-- Menu de navegacion  -->
+  <!-- Menu de navegacion desktop  -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3 menu-desktop " id="nav">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="./img/recursos-fondos/logo-menu-horizontal.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mx-auto"></div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link texto-menu" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link texto-menu" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link texto-menu" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link texto-menu" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link texto-menu" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Menu de navegacion mobile  -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3 menu-mobile " id="display">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="./img/recursos-fondos/logo-menu-horizontal.png" alt=""></a>
@@ -733,6 +764,7 @@
 
   <!-- Menu de navegacion -->
   <script type="text/javascript">
+    // menu mobile
     var nav = document.querySelector('nav');
 
     window.addEventListener('scroll', function () {
@@ -743,6 +775,19 @@
       } else {
         // nav.classList.remove('bg-dark', 'shadow');
         document.getElementById("display").style.display = "none"
+      }
+    });
+    // menu mobile
+    var nav = document.getElementById('nav');
+
+    window.addEventListener('scroll', function () {
+      if (window.pageYOffset > 500) {
+        // nav.classList.add('menu-desktop', 'shadow');
+        document.getElementById("nav").style.backgroundColor = "#4a148c"
+
+      } else {
+        // nav.classList.remove('menu-desktop', 'shadow')
+        document.getElementById("nav").style.backgroundColor = "transparent"
       }
     });
   </script>
