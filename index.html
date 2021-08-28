@@ -396,14 +396,55 @@
         vender tu proyecto inmobiliario desde cero con
         nuestro método.</h4>
       <div class="buttons-2">
-        <button class="btn-hover color-3">Descargá la Guía</button>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#modal-guia" class="btn-hover color-3">Descargá la
+          Guía</button>
 
       </div>
     </div>
     <div class="waveWrapperInner bgMiddle">
       <div class="wave waveMiddle" style="background-image: url('./img/icons/ola-bottom.png')">
+
       </div>
     </div>
+    <!-- Modal -->
+    <div class="modal fade" id="modal-guia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h2 class="titulo-modal">Descargá la Guía</h2>
+            <form class="container col-8 mt-4 form-modal">
+              <div class=" mb-4">
+                <input type="email" class="form-control campos-popUp" id="exampleInputEmail1"
+                  aria-describedby="emailHelp" placeholder="Nombre Completo*">
+              </div>
+              <div class="mb-4">
+                <input type="email" class="form-control campos-popUp" id="exampleInputEmail1"
+                  aria-describedby="emailHelp" placeholder="Email*">
+              </div>
+              <div class="mb-4">
+                <input type="email" class="form-control campos-popUp" id="exampleInputEmail1"
+                  aria-describedby="emailHelp" placeholder="Teléfono*">
+              </div>
+              <div class="mb-4">
+                <input type="email" class="form-control campos-popUp" id="exampleInputEmail1"
+                  aria-describedby="emailHelp" placeholder="Empresa*">
+              </div>
+
+              <button type="submit" class="buttons btn-hover color-2 boton-form-modal" data-bs-dismiss="modal">
+                Descargar</button>
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- fin modal -->
+
   </section>
   <!-- FIN SEPARADOR EMPECEMOS -->
   <!-- INICIO CAROUSEL EMPRESAS -->
