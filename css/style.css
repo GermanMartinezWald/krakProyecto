@@ -3324,6 +3324,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 150px;
+    margin-bottom: 100px;
   }
   .centrado-seccion {
     display: flex;
@@ -3355,7 +3356,7 @@
   .borde-cards-planes {
     border: 4px solid #4a148c;
     border-radius: 20px;
-    margin: 50px;
+    margin: 75px;
     width: 350px !important;
     height: 340px;
   }
@@ -3430,10 +3431,10 @@
     border: 4px solid #4a148c;
     border-radius: 20px;
     margin: 15px;
-    width: 400px !important;
+    width: 50% !important;
   }
 
-  .subtitulo-planes {
+  .subtitulo-planes{
     color: #4a148c;
     font-family: gilroy-black;
     font-size: 60px;
@@ -3443,13 +3444,14 @@
 
   .subtitulo-h3 {
     color: #e91e63;
-    font-size: 48px;
+    font-size: 40px;
   }
 
   .parrafo-planes {
-    font-size: 24px;
+    font-size: 18px;
     text-align: center;
     color: #4a148c;
+    font-family: gilroy-semibold;
   }
 
   .boton-planes {
@@ -3460,9 +3462,9 @@
 
   .btn-planes {
     font-family: "gilroy-bold", sans-serif;
-    width: 250px;
-    height: 70px !important;
-    font-size: 25px;
+    width: 170px;
+    height: 50px !important;
+    font-size: 20px;
     font-weight: normal;
     color: #fff;
     cursor: pointer;
@@ -3500,7 +3502,7 @@
     border-radius: 20px;
     margin: 15px;
     width: 30% !important;
-    height: 400px;
+    height: 350px;
   }
 
   .subtitulo-planes {
@@ -3532,9 +3534,9 @@
 
   .btn-planes {
     font-family: "gilroy-bold", sans-serif;
-    width: 250px;
-    height: 70px !important;
-    font-size: 25px;
+    width: 170px;
+    height: 50px !important;
+    font-size: 20px;
     font-weight: normal;
     color: #fff;
     cursor: pointer;
@@ -3571,7 +3573,8 @@
     border: 4px solid #4a148c;
     border-radius: 20px;
     margin: 15px;
-    width: 30% !important;
+    width: 28% !important;
+    height: 370px;
   }
 
   .subtitulo-planes {
@@ -3585,11 +3588,11 @@
 
   .subtitulo-h3 {
     color: #e91e63;
-    font-size: 48px;
+    font-size: 40px;
   }
 
   .parrafo-planes {
-    font-size: 22px;
+    font-size: 19px;
     text-align: center;
     color: #4a148c;
     font-family: gilroy-medium;
@@ -3602,9 +3605,9 @@
 
   .btn-planes {
     font-family: "gilroy-bold", sans-serif;
-    width: 250px;
-    height: 70px !important;
-    font-size: 25px;
+    width: 170px;
+    height: 50px !important;
+    font-size: 20px;
     font-weight: normal;
     color: #fff;
     cursor: pointer;
@@ -3632,7 +3635,7 @@
   }
 
   .margen-boton {
-    margin-top: 80px !important;
+    margin-top: 73px !important;
   }
 }
 /* FIN SECCION PLANES PERSONALIZADOS */
@@ -3720,7 +3723,7 @@
 
   .subtitulo-agenda {
     color: #fff;
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 10px !important;
     margin-left: 30px !important;
     line-height: 38px;
@@ -3730,7 +3733,7 @@
   .parrafo-agenda {
     color: #fff;
     font-size: 18px;
-    margin-left: 30px !important;
+    margin-left: 20px !important;
     font-family: gilroy-medium;
   }
 
@@ -3757,7 +3760,7 @@
   .item-agenda {
     color: #fff;
     font-size: 25px;
-    margin-top: 30px;
+    margin-top: 20px;
     list-style-image: url(../img/icons/right-arrow.png);
     font-family: gilroy-medium;
   }
@@ -3779,11 +3782,11 @@
 
   .subtitulo-agenda {
     color: #fff;
-    font-size: 60px;
-    margin-top: 40px !important;
+    font-size: 55px;
+    margin-top: 30px !important;
     margin-left: 30px !important;
     margin-bottom: 5%;
-    line-height: 56px;
+    line-height: 50px;
     font-family: gilroy-bold;
   }
 
@@ -3802,7 +3805,7 @@
   .boton-agenda {
     margin-top: 40px !important;
     font-size: 22px;
-    margin-bottom: 50px !important;
+    margin-bottom: 30px !important;
   }
 
   .boton-mobile-agenda {
@@ -3819,7 +3822,7 @@
   .item-agenda {
     color: #fff;
     font-size: 28px;
-    margin-top: 30px;
+    margin-top: 25px;
     list-style-image: url(../img/icons/right-arrow.png);
     font-family: gilroy-medium;
   }
