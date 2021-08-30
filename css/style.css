@@ -3680,7 +3680,7 @@
     display: none;
   }
 
-  .centrar {
+  .centrado-boton-mobile {
     display: flex;
     justify-content: center;
   }
@@ -3691,19 +3691,33 @@
     font-size: 18px;
     font-family: gilroy-semibold;
     margin-top: 20px !important;
+    margin-bottom: 10%;
   }
 
   .item-agenda {
-    justify-content: center !important;
     color: #fff;
-    font-size: 18px;
-    margin-top: 10px;
-    list-style-image: url(../img/icons/right-arrow.png);
+    font-size: 22px;
     font-family: gilroy-medium;
+    line-height: 24px;
+  }
+
+  .centrar{
+    display: flex;
+    justify-content: left;
+    align-items: center !important;
+    margin-top: 5%;
+  }
+
+  .items-agenda-img{
+    width: 28px;
+    height: 28px;
+    margin-bottom: 4%;
   }
 
   .boton-mobile-agenda {
     font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 50px;
   }
 }
 
@@ -3759,10 +3773,22 @@
 
   .item-agenda {
     color: #fff;
-    font-size: 25px;
-    margin-top: 20px;
-    list-style-image: url(../img/icons/right-arrow.png);
+    font-size: 24px;
     font-family: gilroy-medium;
+    line-height: 24px;
+  }
+
+  .centrar{
+    display: flex;
+    justify-content: left;
+    align-items: center !important;
+    margin-top: 5%;
+  }
+
+  .items-agenda-img{
+    width: 28px;
+    height: 28px;
+    margin-bottom: 3%;
   }
 }
 
@@ -3817,14 +3843,26 @@
     color: #fff;
     font-size: 28px;
     font-family: gilroy-semibold;
+    margin-bottom: 5%;
   }
 
   .item-agenda {
     color: #fff;
-    font-size: 28px;
-    margin-top: 25px;
-    list-style-image: url(../img/icons/right-arrow.png);
+    font-size: 30px;
     font-family: gilroy-medium;
+  }
+
+  .centrar{
+    display: flex;
+    justify-content: left;
+    align-items: center !important;
+    margin-top: 8px;
+  }
+
+  .items-agenda-img{
+    width: 28px;
+    height: 28px;
+    margin-bottom: 2%;
   }
 }
 
