@@ -3148,10 +3148,11 @@
   }
   .subtitulo-principal {
     font-family: gilroy-black;
-    font-size: 25px;
+    font-size: 31px;
     background: linear-gradient(to right, #7c1dc9, #e91e63, #fc6b5f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    line-height: 31px;
   }
 
   /* INICIO CARD-CASCADA */
@@ -3238,11 +3239,11 @@
     margin-top: 45px;
   }
   .accordion-body {
-    font-family: "gilroy-regular";
+    font-family: "gilroy-medium";
     width: 100%;
     padding: 10px;
     /* margin-top: 20px; */
-    font-size: 14px;
+    font-size: 15px;
     text-align: center;
   }
   /* #$%% */
@@ -3364,9 +3365,9 @@
   .subtitulo-planes {
     color: #4a148c;
     font-family: gilroy-black;
-    font-size: 36px;
+    font-size: 35px;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 45px;
     margin-bottom: 70px;
   }
 
@@ -3376,7 +3377,7 @@
   }
 
   .parrafo-planes {
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
     color: #4a148c;
     font-family: gilroy-semibold;
@@ -3696,7 +3697,7 @@
 
   .item-agenda {
     color: #fff;
-    font-size: 22px;
+    font-size: 18px;
     font-family: gilroy-medium;
     line-height: 24px;
   }
@@ -4436,7 +4437,7 @@
     text-align: center;
     color: #4a148c;
     font-family: gilroy-black;
-    font-size: 36px;
+    font-size: 31px;
     margin-left: 0px;
     margin-bottom: 30px;
   }
@@ -4498,9 +4499,9 @@
     text-align: center;
     color: #4a148c;
     font-family: gilroy-black;
-    font-size: 60px;
+    font-size: 36px;
     margin-left: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
   .carousel-emp {
     /* min-height: 100vh; */
@@ -4992,7 +4993,7 @@
   .texto-principal-empecemos {
     grid-area: texto;
     font-family: "gilroy-medium";
-    font-size: 14px;
+    font-size: 15px;
     width: 90%;
     justify-self: start;
     margin: 30px 30px;
